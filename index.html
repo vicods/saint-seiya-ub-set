@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magic: The Gathering | Saint Seiya</title>
+<style>
+
+:root {
+  --void:        #0a0a0d;
+  --void-2:      #12121a;
+  --panel:       #16161f;
+  --line:        #26262f;
+  --ink:         #e8e6e0;
+  --ink-dim:     #8d8a9c;
+  --ink-faint:   #5a5868;
+
+  --c-common:    #5e5c6a;
+  --c-uncommon:  #c4c8d4;
+  --c-rare:      #d4af6a;
+  --c-mythic:    #d4564a;
+  --c-ink:       #9a9aa0;
+  --c-affinity:  #6fa888;
+
+  --w: #f3e9c9;
+  --u: #6fa8c9;
+  --b: #8b7d9b;
+  --r: #c66a4f;
+  --g: #6f9a6e;
+
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-body:     "Inter", -apple-system, "Segoe UI", sans-serif;
+  --font-mono:     "JetBrains Mono", "SF Mono", Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--void);
+  color: var(--ink);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+.starfield {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1px 1px at 12% 18%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 32% 64%, rgba(255,255,255,0.35), transparent),
+    radial-gradient(1.5px 1.5px at 52% 22%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 71% 78%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 85% 35%, rgba(255,255,255,0.45), transparent),
+    radial-gradient(1.5px 1.5px at 22% 88%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 91% 12%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 6% 50%, rgba(255,255,255,0.25), transparent),
+    radial-gradient(1px 1px at 44% 8%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 63% 92%, rgba(255,255,255,0.35), transparent);
+  opacity: 0.6;
+}
+
+section {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero .eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 22px;
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(48px, 9vw, 104px);
+  line-height: 0.95;
+  margin: 0 0 28px;
+}
+
+.hero h1 .accent {
+  color: var(--c-rare);
+  font-style: italic;
+}
+
+.hero .pitch {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.6vw, 30px);
+  font-style: italic;
+  color: var(--ink-dim);
+  max-width: 720px;
+  line-height: 1.4;
+  margin: 0 0 32px;
+}
+
+.hero-symbol {
+  width: 130px;
+  height: auto;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.hero-scroll {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-scroll .arrow {
+  width: 1px;
+  height: 36px;
+  background: linear-gradient(to bottom, var(--ink-faint), transparent);
+  animation: pulseDown 2s ease-in-out infinite;
+}
+
+@keyframes pulseDown {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* ============================================================
+   GENERIC SECTION LAYOUT
+   ============================================================ */
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 32px;
+}
+
+.wrap.tight { padding-top: 60px; padding-bottom: 60px; }
+
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 18px;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(32px, 5vw, 48px);
+  margin: 0 0 28px;
+  line-height: 1.1;
+}
+
+.section-title em {
+  font-style: italic;
+  color: var(--c-rare);
+}
+
+.lede {
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--ink-dim);
+  max-width: 720px;
+}
+
+.lede strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* ============================================================
+   ABOUT SECTION (combat philosophy)
+   ============================================================ */
+.about {
+  border-top: 1px solid var(--line);
+  background: linear-gradient(180deg, transparent, rgba(212,175,106,0.03), transparent);
+}
+
+.about .lede {
+  font-size: 19px;
+  max-width: 780px;
+}
+
+/* ============================================================
+   MECHANICS
+   ============================================================ */
+.mechanics {
+  border-top: 1px solid var(--line);
+}
+
+.mech-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 64px;
+  margin-top: 56px;
+}
+
+.mech-card {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.mech-card img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+.mech-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0 0 10px;
+  color: var(--ink);
+}
+
+.mech-desc {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--ink-dim);
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .mech-card { grid-template-columns: 1fr; }
+  .mech-card img { max-width: 260px; margin: 0 auto; }
+}
+
+/* ============================================================
+   NAMED ATTACKS SPOTLIGHT
+   ============================================================ */
+.spotlight {
+  border-top: 1px solid var(--line);
+  background: var(--void-2);
+}
+
+.spotlight-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 56px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.spotlight img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.55);
+}
+
+.spotlight-text p {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--ink-dim);
+  margin: 0 0 20px;
+}
+
+.spotlight-text p:last-child { margin-bottom: 0; }
+
+@media (max-width: 720px) {
+  .spotlight-grid { grid-template-columns: 1fr; }
+  .spotlight img { max-width: 260px; margin: 0 auto; }
+}
+
+/* ============================================================
+   AFFINITY HOOK
+   ============================================================ */
+.affinity-hook {
+  border-top: 1px solid var(--line);
+  text-align: center;
+  padding: 90px 32px;
+}
+
+.affinity-hook .section-label { justify-content: center; display: flex; }
+
+.affinity-hook h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(30px, 4.5vw, 44px);
+  margin: 0 0 26px;
+  color: var(--c-affinity);
+}
+
+.affinity-hook .lede {
+  margin: 0 auto 16px;
+  text-align: center;
+}
+
+.affinity-hook .hook-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 22px;
+  color: var(--ink-dim);
+  margin-top: 30px;
+}
+
+/* ============================================================
+   GOD CYCLES
+   ============================================================ */
+.cycles {
+  border-top: 1px solid var(--line);
+}
+
+.cycle-block {
+  margin-bottom: 90px;
+}
+
+.cycle-block:last-child { margin-bottom: 0; }
+
+.cycle-header {
+  margin-bottom: 26px;
+}
+
+.cycle-header h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(24px, 3.4vw, 32px);
+  margin: 0 0 10px;
+  color: var(--ink);
+}
+
+.cycle-header p {
+  font-size: 15.5px;
+  color: var(--ink-dim);
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0;
+}
+
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card-row img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-row img:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 38px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 720px) {
+  .card-row { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 460px) {
+  .card-row { grid-template-columns: repeat(1, 1fr); max-width: 240px; margin: 0 auto; }
+}
+
+.golds-reveal {
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 60px;
+  border-top: 1px solid var(--line);
+}
+
+.golds-reveal h3 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(26px, 4vw, 36px);
+  color: var(--c-mythic);
+  margin: 0 0 36px;
+}
+
+/* ============================================================
+   INK PAGES
+   ============================================================ */
+.ink-section {
+  border-top: 1px solid var(--line);
+  background: var(--void-2);
+}
+
+.ink-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr;
+  gap: 32px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.ink-grid img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  filter: grayscale(1) contrast(1.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+
+.ink-grid img:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 30px 70px rgba(255,255,255,0.12), 0 20px 50px rgba(0,0,0,0.6);
+  filter: grayscale(1) contrast(1.15) brightness(1.05);
+}
+
+.ink-text p {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--ink-dim);
+  margin: 0 0 20px;
+}
+
+.ink-text p:last-child { margin-bottom: 0; }
+
+.ink-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-ink);
+  border: 1px solid var(--c-ink);
+  border-radius: 999px;
+  padding: 6px 16px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 720px) {
+  .ink-grid { grid-template-columns: 1fr; }
+}
+
+/* ============================================================
+   FINAL CTA
+   ============================================================ */
+.final-cta {
+  border-top: 1px solid var(--line);
+  text-align: center;
+  padding: 120px 32px 140px;
+}
+
+.final-cta .section-label { justify-content: center; display: flex; }
+
+.final-cta h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(36px, 6vw, 56px);
+  margin: 0 0 24px;
+}
+
+.final-cta .lede {
+  margin: 0 auto 44px;
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 18px 42px;
+  border-radius: 999px;
+  border: 1px solid var(--c-rare);
+  background: linear-gradient(135deg, rgba(212,175,106,0.18), rgba(212,86,74,0.12));
+  color: var(--c-rare);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.cta-btn:hover {
+  background: linear-gradient(135deg, rgba(212,175,106,0.32), rgba(212,86,74,0.22));
+  box-shadow: 0 0 40px rgba(212,175,106,0.3);
+  transform: translateY(-2px);
+}
+
+footer {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 30px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-faint);
+  border-top: 1px solid var(--line);
+}
+
+</style>
+</head>
+<body>
+
+<div class="starfield"></div>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero">
+  <p class="eyebrow">Magic: The Gathering | Saint Seiya</p>
+  <h1>Saint <span class="accent">Seiya</span></h1>
+  <p class="pitch">Build a deck to burn your Cosmo and protect the Earth.</p>
+  <img src="mtg-set-symbol-mythic.png" alt="Saint Seiya set symbol" class="hero-symbol">
+  <div class="hero-scroll">
+    <span>Scroll to explore</span>
+    <div class="arrow"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT — combat philosophy
+     ============================================================ -->
+<section class="about">
+  <div class="wrap">
+    <p class="section-label">The Set</p>
+    <p class="lede">
+      Saint Seiya has always lived in combat. This set follows the same instinct.
+      <strong>Saint Seiya is creature-heavy by design</strong>, true to the source material's
+      focus on one-on-one battles. There's no token swarm here. Your Saints stand alone
+      or fight side by side, the way Seiya and his brothers in arms faced down Gods together.
+      Every board state plays like a fierce game of chess: every piece matters, every attack
+      means something, and every Saint who falls did so swinging.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     MECHANICS
+     ============================================================ -->
+<section class="mechanics">
+  <div class="wrap">
+    <p class="section-label">Mechanics</p>
+    <h2 class="section-title">Five ways to <em>fight</em></h2>
+
+    <div class="mech-grid">
+      <div class="mech-card">
+        <img src="cards/common/common_rw_creature_restless-unicorn.png" alt="Backup — Restless Unicorn">
+        <div>
+          <h3 class="mech-name">Backup</h3>
+          <p class="mech-desc">A Saint lends a fellow fighter their strength before the real battle begins.</p>
+        </div>
+      </div>
+
+      <div class="mech-card">
+        <img src="cards/rare/rare_b_sorcery_arayashiki.png" alt="Miracle — Arayashiki">
+        <div>
+          <h3 class="mech-name">Miracle</h3>
+          <p class="mech-desc">Victory sometimes only comes from a power beyond reason, drawn at the exact right moment.</p>
+        </div>
+      </div>
+
+      <div class="mech-card">
+        <img src="cards/uncommon/uncommon_b_sorcery_dull-the-senses.png" alt="Flashback — Dull the Senses">
+        <div>
+          <h3 class="mech-name">Flashback</h3>
+          <p class="mech-desc">Some battles are fought twice. What was spent once can rise from the grave and strike again.</p>
+        </div>
+      </div>
+
+      <div class="mech-card">
+        <img src="cards/common/common_b_sorcery_aggressive-sabotage.png" alt="Kicker — Aggressive Sabotage">
+        <div>
+          <h3 class="mech-name">Kicker</h3>
+          <p class="mech-desc">Push past your limits, and your attack hits even harder.</p>
+        </div>
+      </div>
+
+      <div class="mech-card">
+        <img src="cards/common/common_r_enchantment_senseless-rage.png" alt="Madness — Senseless Rage">
+        <div>
+          <h3 class="mech-name">Madness</h3>
+          <p class="mech-desc">Rage doesn't wait for your turn. Discard it, and it strikes back instantly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     NAMED ATTACKS SPOTLIGHT
+     ============================================================ -->
+<section class="spotlight">
+  <div class="wrap">
+    <p class="section-label">Signature Mechanic</p>
+    <h2 class="section-title">Named <em>Attacks</em></h2>
+
+    <div class="spotlight-grid">
+      <img src="cards/uncommon/uncommon_rwb_creature_shaina-fangless-snake.png" alt="Shaina">
+      <div class="spotlight-text">
+        <p>
+          Every Saint has a signature technique, the move that defines who they are.
+          Each Saint's Named Attack carries its own unique effect, with no overlap
+          across the set. No two attacks read the same, because no two fighters
+          fight the same way.
+        </p>
+        <p>
+          Saints exist to fight, so every Named Attack triggers when its Saint
+          attacks, not just when it enters the battlefield. The moment of truth
+          comes when a Saint throws the first punch.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     AFFINITY HOOK
+     ============================================================ -->
+<section class="affinity-hook">
+  <div class="wrap tight">
+    <p class="section-label">New Forms of Affinity</p>
+    <h2>New Forms of Affinity</h2>
+    <p class="lede">
+      Magic has always rewarded loyalty to a tribe. Saint Seiya takes that loyalty
+      and gives it a face: each God commands their own Affinity, rewarding decks
+      built around the warriors who serve them.
+    </p>
+    <p class="hook-line">
+      It's the backbone of the set's biggest cycles, and the next section is where it pays off&hellip;
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     GOD & SAINTS CYCLES
+     ============================================================ -->
+<section class="cycles">
+  <div class="wrap">
+    <p class="section-label">Gods & Saints</p>
+    <h2 class="section-title">Five <em>Pantheons</em>, one Earth</h2>
+
+    <!-- ATHENA -->
+    <div class="cycle-block">
+      <div class="cycle-header">
+        <h3>Athena & the Five Bronze Saints</h3>
+        <p>Seiya, Shiryu, Hyoga, Shun, Ikki — the heart of the Sanctuary, and the will of the Goddess herself.</p>
+      </div>
+      <div class="card-row">
+        <img src="cards/mythic/mythic_w_creature_saori-athena-incarnate.png" alt="Athena">
+        <img src="cards/mythic/mythic_rw_creature_seiya-pegasus-saint.png" alt="Seiya">
+        <img src="cards/mythic/mythic_br_creature_ikki-phoenix-saint.png" alt="Ikki">
+        <img src="cards/mythic/mythic_gw_creature_shiryu-dragon-saint.png" alt="Shiryu">
+        <img src="cards/mythic/mythic_wu_creature_hyoga-cygnus-saint.png" alt="Hyoga">
+        <img src="cards/mythic/mythic_w_creature_shun-andromeda-saint.png" alt="Shun">
+      </div>
+    </div>
+
+    <!-- HADES -->
+    <div class="cycle-block">
+      <div class="cycle-header">
+        <h3>Hades & the Rare Specters</h3>
+        <p>Death has its own commanders. The Underworld's most fearsome warriors serve the Lord of the Dead.</p>
+      </div>
+      <div class="card-row">
+        <img src="cards/mythic/mythic_b_creature_hades-emperor-of-the-underworld.png" alt="Hades">
+        <img src="cards/mythic/mythic_b_creature_hypnos-god-of-sleep.png" alt="Hypnos">
+        <img src="cards/mythic/mythic_b_creature_thanatos-god-of-death.png" alt="Thanatos">
+        <img src="cards/rare/rare_b_creature_rhadamanthys-savage-wyvern.png" alt="Rhadamanthys">
+        <img src="cards/rare/rare_b_creature_minos-noble-griffon.png" alt="Minos">
+        <img src="cards/rare/rare_b_creature_aiacos-valiant-garuda.png" alt="Aiacos">
+      </div>
+    </div>
+
+    <!-- POSEIDON -->
+    <div class="cycle-block">
+      <div class="cycle-header">
+        <h3>Poseidon & the Two Rare Mariners</h3>
+        <p>The depths of the ocean answer to a different God, and his strongest generals rise with him.</p>
+      </div>
+      <div class="card-row">
+        <img src="cards/mythic/mythic_u_creature_poseidon-god-of-the-ocean.png" alt="Poseidon">
+        <img src="cards/rare/rare_u_creature_kanon-mischievous-sea-dragon.png" alt="Kanon">
+        <img src="cards/rare/rare_u_creature_sorrento-alluring-siren.png" alt="Sorrento">
+      </div>
+    </div>
+
+    <!-- ARTEMIS / APOLLO -->
+    <div class="cycle-block">
+      <div class="cycle-header">
+        <h3>Artemis, Apollo & the Angels</h3>
+        <p>Even Olympus has its own knights, and they answer to Gods older than the Sanctuary itself.</p>
+      </div>
+      <div class="card-row">
+        <img src="cards/mythic/mythic_g_creature_artemis-god-of-the-moon.png" alt="Artemis">
+        <img src="cards/mythic/mythic_r_creature_apollo-god-of-the-sun.png" alt="Apollo">
+        <img src="cards/rare/rare_gw_creature_toma-heavenly-icarus.png" alt="Toma">
+        <img src="cards/rare/rare_rg_creature_theseus-light-of-artemis.png" alt="Theseus">
+        <img src="cards/rare/rare_gu_creature_odysseus-distorter-of-artemis.png" alt="Odysseus">
+      </div>
+    </div>
+
+    <!-- HILDA -->
+    <div class="cycle-block">
+      <div class="cycle-header">
+        <h3>Hilda & Siegfried</h3>
+        <p>Asgard's ruler and her champion, bound by a God's will, broken by a friend's sacrifice.</p>
+      </div>
+      <div class="card-row">
+        <img src="cards/mythic/mythic_gur_creature_hilda-controlled-polaris.png" alt="Hilda">
+        <img src="cards/rare/rare_gur_creature_siegfried-immortal-dubhe.png" alt="Siegfried">
+        <div></div>
+      </div>
+    </div>
+
+    <!-- GOLDS REVEAL -->
+    <div class="golds-reveal">
+      <h3>The 12 Gold Saints weren't forgotten.</h3>
+      <div class="card-row">
+        <img src="cards/rare/rare_wb_creature_saga-tormented-gemini.png" alt="Saga">
+        <img src="cards/rare/rare_w_creature_shaka-godly-virgo.png" alt="Shaka">
+        <img src="cards/rare/rare_gw_creature_dohko-rejuvenated-libra.png" alt="Dohko">
+        <img src="cards/rare/rare_w_creature_shion-original-pope.png" alt="Shion">
+        <img src="cards/rare/rare_w_creature_aiolos-guiding-sagittarius.png" alt="Aiolos">
+        <img src="cards/rare/rare_r_creature_aiolia-lightning-leo.png" alt="Aiolia">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     INK PAGES
+     ============================================================ -->
+<section class="ink-section">
+  <div class="wrap">
+    <p class="section-label">Collector Treatment</p>
+    <h2 class="section-title">Ink <em>Pages</em></h2>
+
+    <div class="ink-grid">
+      <img src="cards/ink/ink_w_instant_deicide-promo.png" alt="Deicide — Ink Page">
+      <img src="cards/ink/ink_b_sorcery_dull-the-senses-promo.png" alt="Dull the Senses — Ink Page">
+      <div class="ink-text">
+        <span class="ink-badge">Manga-style alternate art</span>
+        <p>
+          Some moments deserve more than color. Ink Pages are full-art alternate
+          printings rendered in the style of classic manga: black and white,
+          screentone, panel borders and all.
+        </p>
+        <p>
+          Each one revisits a key scene from the anime, redrawn as if it had
+          always belonged on a page instead of a card. They exist purely as a
+          collector's treatment, a tribute to where Saint Seiya started before
+          it ever became a deck.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FINAL CTA
+     ============================================================ -->
+<section class="final-cta">
+  <div class="wrap tight">
+    <p class="section-label">252 Cards. Five Pantheons. One Cosmo.</p>
+    <h2>The Sanctuary awaits.</h2>
+    <p class="lede">Explore every card, every Saint, and every God in the full Archive.</p>
+    <a href="archive.html" class="cta-btn">Enter the Archive →</a>
+  </div>
+</section>
+
+<footer>
+  Saint Seiya — Universes Beyond Fan Project · 2026 · Not affiliated with Wizards of the Coast or Toei Animation
+</footer>
+
+</body>
+</html>

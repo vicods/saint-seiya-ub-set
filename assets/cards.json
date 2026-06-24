@@ -1,0 +1,2747 @@
+{
+  "cards": [
+    {
+      "filename": "common_b_creature_annihilation-basilisk.png",
+      "path": "assets/cards/common/common_b_creature_annihilation-basilisk.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "annihilation-basilisk",
+      "name": "Annihilation Basilisk"
+    },
+    {
+      "filename": "common_b_creature_black-andromeda.png",
+      "path": "assets/cards/common/common_b_creature_black-andromeda.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "black-andromeda",
+      "name": "Black Andromeda"
+    },
+    {
+      "filename": "common_b_creature_black-cygnus.png",
+      "path": "assets/cards/common/common_b_creature_black-cygnus.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "black-cygnus",
+      "name": "Black Cygnus"
+    },
+    {
+      "filename": "common_b_creature_black-pegasus.png",
+      "path": "assets/cards/common/common_b_creature_black-pegasus.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "black-pegasus",
+      "name": "Black Pegasus"
+    },
+    {
+      "filename": "common_b_creature_black-phoenix.png",
+      "path": "assets/cards/common/common_b_creature_black-phoenix.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "black-phoenix",
+      "name": "Black Phoenix"
+    },
+    {
+      "filename": "common_b_creature_criminal-lycaon.png",
+      "path": "assets/cards/common/common_b_creature_criminal-lycaon.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "criminal-lycaon",
+      "name": "Criminal Lycaon"
+    },
+    {
+      "filename": "common_b_creature_deep-darkness.png",
+      "path": "assets/cards/common/common_b_creature_deep-darkness.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "deep-darkness",
+      "name": "Deep Darkness"
+    },
+    {
+      "filename": "common_b_creature_defeated-troll.png",
+      "path": "assets/cards/common/common_b_creature_defeated-troll.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "defeated-troll",
+      "name": "Defeated Troll"
+    },
+    {
+      "filename": "common_b_creature_demonic-alraune.png",
+      "path": "assets/cards/common/common_b_creature_demonic-alraune.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "demonic-alraune",
+      "name": "Demonic Alraune"
+    },
+    {
+      "filename": "common_b_creature_hades-skeleton.png",
+      "path": "assets/cards/common/common_b_creature_hades-skeleton.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "hades-skeleton",
+      "name": "Hades Skeleton"
+    },
+    {
+      "filename": "common_b_creature_hidden-worm-menace.png",
+      "path": "assets/cards/common/common_b_creature_hidden-worm-menace.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "hidden-worm-menace",
+      "name": "Hidden Worm Menace"
+    },
+    {
+      "filename": "common_b_creature_horned-golem.png",
+      "path": "assets/cards/common/common_b_creature_horned-golem.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "horned-golem",
+      "name": "Horned Golem"
+    },
+    {
+      "filename": "common_b_creature_prison-minotaur.png",
+      "path": "assets/cards/common/common_b_creature_prison-minotaur.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "prison-minotaur",
+      "name": "Prison Minotaur"
+    },
+    {
+      "filename": "common_b_creature_twin-black-dragon.png",
+      "path": "assets/cards/common/common_b_creature_twin-black-dragon.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "twin-black-dragon",
+      "name": "Twin Black Dragon"
+    },
+    {
+      "filename": "common_b_creature_ugly-beetle.png",
+      "path": "assets/cards/common/common_b_creature_ugly-beetle.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "ugly-beetle",
+      "name": "Ugly Beetle"
+    },
+    {
+      "filename": "common_b_creature_violent-cyclops.png",
+      "path": "assets/cards/common/common_b_creature_violent-cyclops.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "violent-cyclops",
+      "name": "Violent Cyclops"
+    },
+    {
+      "filename": "common_b_instant_blood-pact.png",
+      "path": "assets/cards/common/common_b_instant_blood-pact.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "blood-pact",
+      "name": "Blood Pact"
+    },
+    {
+      "filename": "common_b_sorcery_aggressive-sabotage.png",
+      "path": "assets/cards/common/common_b_sorcery_aggressive-sabotage.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "aggressive-sabotage",
+      "name": "Aggressive Sabotage"
+    },
+    {
+      "filename": "common_b_sorcery_duress.png",
+      "path": "assets/cards/common/common_b_sorcery_duress.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "duress",
+      "name": "Duress"
+    },
+    {
+      "filename": "common_b_sorcery_into-the-underworld.png",
+      "path": "assets/cards/common/common_b_sorcery_into-the-underworld.png",
+      "rarity": "common",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "into-the-underworld",
+      "name": "Into The Underworld"
+    },
+    {
+      "filename": "common_bg_creature_perilous-hydra.png",
+      "path": "assets/cards/common/common_bg_creature_perilous-hydra.png",
+      "rarity": "common",
+      "color": "BG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "perilous-hydra",
+      "name": "Perilous Hydra"
+    },
+    {
+      "filename": "common_br_creature_cruel-master.png",
+      "path": "assets/cards/common/common_br_creature_cruel-master.png",
+      "rarity": "common",
+      "color": "BR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "cruel-master",
+      "name": "Cruel Master"
+    },
+    {
+      "filename": "common_br_sorcery_selfless-death.png",
+      "path": "assets/cards/common/common_br_sorcery_selfless-death.png",
+      "rarity": "common",
+      "color": "BR",
+      "colorCount": 2,
+      "type": "sorcery",
+      "slug": "selfless-death",
+      "name": "Selfless Death"
+    },
+    {
+      "filename": "common_c_artifact_apprentices-gear.png",
+      "path": "assets/cards/common/common_c_artifact_apprentices-gear.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "apprentices-gear",
+      "name": "Apprentices Gear"
+    },
+    {
+      "filename": "common_c_artifact_chameleon-whip.png",
+      "path": "assets/cards/common/common_c_artifact_chameleon-whip.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "chameleon-whip",
+      "name": "Chameleon Whip"
+    },
+    {
+      "filename": "common_c_artifact_practice-dummy.png",
+      "path": "assets/cards/common/common_c_artifact_practice-dummy.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "practice-dummy",
+      "name": "Practice Dummy"
+    },
+    {
+      "filename": "common_c_land_andromeda-island.png",
+      "path": "assets/cards/common/common_c_land_andromeda-island.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "andromeda-island",
+      "name": "Andromeda Island"
+    },
+    {
+      "filename": "common_c_land_elysian-fields.png",
+      "path": "assets/cards/common/common_c_land_elysian-fields.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "elysian-fields",
+      "name": "Elysian Fields"
+    },
+    {
+      "filename": "common_c_land_forest-of-spirits.png",
+      "path": "assets/cards/common/common_c_land_forest-of-spirits.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "forest-of-spirits",
+      "name": "Forest Of Spirits"
+    },
+    {
+      "filename": "common_c_land_forest1.PNG",
+      "path": "assets/cards/common/common_c_land_forest1.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "forest1",
+      "name": "Forest1"
+    },
+    {
+      "filename": "common_c_land_forest2.PNG",
+      "path": "assets/cards/common/common_c_land_forest2.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "forest2",
+      "name": "Forest2"
+    },
+    {
+      "filename": "common_c_land_forest3.PNG",
+      "path": "assets/cards/common/common_c_land_forest3.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "forest3",
+      "name": "Forest3"
+    },
+    {
+      "filename": "common_c_land_forest4.PNG",
+      "path": "assets/cards/common/common_c_land_forest4.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "forest4",
+      "name": "Forest4"
+    },
+    {
+      "filename": "common_c_land_graad-colosseum.png",
+      "path": "assets/cards/common/common_c_land_graad-colosseum.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "graad-colosseum",
+      "name": "Graad Colosseum"
+    },
+    {
+      "filename": "common_c_land_island1.PNG",
+      "path": "assets/cards/common/common_c_land_island1.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "island1",
+      "name": "Island1"
+    },
+    {
+      "filename": "common_c_land_island2.PNG",
+      "path": "assets/cards/common/common_c_land_island2.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "island2",
+      "name": "Island2"
+    },
+    {
+      "filename": "common_c_land_island3.PNG",
+      "path": "assets/cards/common/common_c_land_island3.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "island3",
+      "name": "Island3"
+    },
+    {
+      "filename": "common_c_land_island4.PNG",
+      "path": "assets/cards/common/common_c_land_island4.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "island4",
+      "name": "Island4"
+    },
+    {
+      "filename": "common_c_land_jamiel-mountains.png",
+      "path": "assets/cards/common/common_c_land_jamiel-mountains.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "jamiel-mountains",
+      "name": "Jamiel Mountains"
+    },
+    {
+      "filename": "common_c_land_makai-island.png",
+      "path": "assets/cards/common/common_c_land_makai-island.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "makai-island",
+      "name": "Makai Island"
+    },
+    {
+      "filename": "common_c_land_mountain-house.png",
+      "path": "assets/cards/common/common_c_land_mountain-house.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "mountain-house",
+      "name": "Mountain House"
+    },
+    {
+      "filename": "common_c_land_mountain1.PNG",
+      "path": "assets/cards/common/common_c_land_mountain1.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "mountain1",
+      "name": "Mountain1"
+    },
+    {
+      "filename": "common_c_land_mountain2.PNG",
+      "path": "assets/cards/common/common_c_land_mountain2.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "mountain2",
+      "name": "Mountain2"
+    },
+    {
+      "filename": "common_c_land_mountain3.PNG",
+      "path": "assets/cards/common/common_c_land_mountain3.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "mountain3",
+      "name": "Mountain3"
+    },
+    {
+      "filename": "common_c_land_mountain4.PNG",
+      "path": "assets/cards/common/common_c_land_mountain4.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "mountain4",
+      "name": "Mountain4"
+    },
+    {
+      "filename": "common_c_land_plains1.PNG",
+      "path": "assets/cards/common/common_c_land_plains1.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "plains1",
+      "name": "Plains1"
+    },
+    {
+      "filename": "common_c_land_plains2.PNG",
+      "path": "assets/cards/common/common_c_land_plains2.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "plains2",
+      "name": "Plains2"
+    },
+    {
+      "filename": "common_c_land_plains3.PNG",
+      "path": "assets/cards/common/common_c_land_plains3.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "plains3",
+      "name": "Plains3"
+    },
+    {
+      "filename": "common_c_land_plains4.PNG",
+      "path": "assets/cards/common/common_c_land_plains4.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "plains4",
+      "name": "Plains4"
+    },
+    {
+      "filename": "common_c_land_swamp1.PNG",
+      "path": "assets/cards/common/common_c_land_swamp1.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "swamp1",
+      "name": "Swamp1"
+    },
+    {
+      "filename": "common_c_land_swamp2.PNG",
+      "path": "assets/cards/common/common_c_land_swamp2.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "swamp2",
+      "name": "Swamp2"
+    },
+    {
+      "filename": "common_c_land_swamp3.PNG",
+      "path": "assets/cards/common/common_c_land_swamp3.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "swamp3",
+      "name": "Swamp3"
+    },
+    {
+      "filename": "common_c_land_swamp4.PNG",
+      "path": "assets/cards/common/common_c_land_swamp4.PNG",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "swamp4",
+      "name": "Swamp4"
+    },
+    {
+      "filename": "common_c_land_valhalla-palace.png",
+      "path": "assets/cards/common/common_c_land_valhalla-palace.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "valhalla-palace",
+      "name": "Valhalla Palace"
+    },
+    {
+      "filename": "common_c_land_wailing-wall.png",
+      "path": "assets/cards/common/common_c_land_wailing-wall.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "wailing-wall",
+      "name": "Wailing Wall"
+    },
+    {
+      "filename": "common_c_land_west-siberia.png",
+      "path": "assets/cards/common/common_c_land_west-siberia.png",
+      "rarity": "common",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "west-siberia",
+      "name": "West Siberia"
+    },
+    {
+      "filename": "common_g_creature_ambitious-warrior.png",
+      "path": "assets/cards/common/common_g_creature_ambitious-warrior.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "ambitious-warrior",
+      "name": "Ambitious Warrior"
+    },
+    {
+      "filename": "common_g_creature_artemis-satellite.png",
+      "path": "assets/cards/common/common_g_creature_artemis-satellite.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "artemis-satellite",
+      "name": "Artemis Satellite"
+    },
+    {
+      "filename": "common_g_creature_assassin-tarantula.png",
+      "path": "assets/cards/common/common_g_creature_assassin-tarantula.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "assassin-tarantula",
+      "name": "Assassin Tarantula"
+    },
+    {
+      "filename": "common_g_creature_auspicious-tracker.png",
+      "path": "assets/cards/common/common_g_creature_auspicious-tracker.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "auspicious-tracker",
+      "name": "Auspicious Tracker"
+    },
+    {
+      "filename": "common_g_creature_confident-bear.png",
+      "path": "assets/cards/common/common_g_creature_confident-bear.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "confident-bear",
+      "name": "Confident Bear"
+    },
+    {
+      "filename": "common_g_creature_enormous-assassin.png",
+      "path": "assets/cards/common/common_g_creature_enormous-assassin.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "enormous-assassin",
+      "name": "Enormous Assassin"
+    },
+    {
+      "filename": "common_g_creature_forgotten-wolf.png",
+      "path": "assets/cards/common/common_g_creature_forgotten-wolf.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "forgotten-wolf",
+      "name": "Forgotten Wolf"
+    },
+    {
+      "filename": "common_g_creature_killer-lotus.png",
+      "path": "assets/cards/common/common_g_creature_killer-lotus.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "killer-lotus",
+      "name": "Killer Lotus"
+    },
+    {
+      "filename": "common_g_creature_loyal steward.png",
+      "path": "assets/cards/common/common_g_creature_loyal steward.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "loyal steward",
+      "name": "Loyal steward"
+    },
+    {
+      "filename": "common_g_creature_praying-companion.png",
+      "path": "assets/cards/common/common_g_creature_praying-companion.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "praying-companion",
+      "name": "Praying Companion"
+    },
+    {
+      "filename": "common_g_instant_gift-of-the-viper.png",
+      "path": "assets/cards/common/common_g_instant_gift-of-the-viper.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "gift-of-the-viper",
+      "name": "Gift Of The Viper"
+    },
+    {
+      "filename": "common_g_instant_vigorous-charge.png",
+      "path": "assets/cards/common/common_g_instant_vigorous-charge.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "vigorous-charge",
+      "name": "Vigorous Charge"
+    },
+    {
+      "filename": "common_g_sorcery_grow-from-the-ashes.png",
+      "path": "assets/cards/common/common_g_sorcery_grow-from-the-ashes.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "grow-from-the-ashes",
+      "name": "Grow From The Ashes"
+    },
+    {
+      "filename": "common_g_sorcery_knockout-maneuver.png",
+      "path": "assets/cards/common/common_g_sorcery_knockout-maneuver.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "knockout-maneuver",
+      "name": "Knockout Maneuver"
+    },
+    {
+      "filename": "common_g_enchantment_blind-faith.png",
+      "path": "assets/cards/common/common_g_enchantment_blind-faith.png",
+      "rarity": "common",
+      "color": "G",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "blind-faith",
+      "name": "Blind Faith"
+    },
+    {
+      "filename": "common_r_creature_cruel-flameweaver.png",
+      "path": "assets/cards/common/common_r_creature_cruel-flameweaver.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "cruel-flameweaver",
+      "name": "Cruel Flameweaver"
+    },
+    {
+      "filename": "common_r_creature_death-queen-island-usurper.png",
+      "path": "assets/cards/common/common_r_creature_death-queen-island-usurper.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "death-queen-island-usurper",
+      "name": "Death Queen Island Usurper"
+    },
+    {
+      "filename": "common_r_creature_hildas-troops.png",
+      "path": "assets/cards/common/common_r_creature_hildas-troops.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "hildas-troops",
+      "name": "Hildas Troops"
+    },
+    {
+      "filename": "common_r_creature_tragic-companion.png",
+      "path": "assets/cards/common/common_r_creature_tragic-companion.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "tragic-companion",
+      "name": "Tragic Companion"
+    },
+    {
+      "filename": "common_r_instant_ancient-grudge.png",
+      "path": "assets/cards/common/common_r_instant_ancient-grudge.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "ancient-grudge",
+      "name": "Ancient Grudge"
+    },
+    {
+      "filename": "common_r_instant_lightning-bolt.png",
+      "path": "assets/cards/common/common_r_instant_lightning-bolt.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "lightning-bolt",
+      "name": "Lightning Bolt"
+    },
+    {
+      "filename": "common_r_sorcery_crack-the-earth.png",
+      "path": "assets/cards/common/common_r_sorcery_crack-the-earth.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "crack-the-earth",
+      "name": "Crack The Earth"
+    },
+    {
+      "filename": "common_r_sorcery_demolish.png",
+      "path": "assets/cards/common/common_r_sorcery_demolish.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "demolish",
+      "name": "Demolish"
+    },
+    {
+      "filename": "common_r_sorcery_faithless-looting.png",
+      "path": "assets/cards/common/common_r_sorcery_faithless-looting.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "faithless-looting",
+      "name": "Faithless Looting"
+    },
+    {
+      "filename": "common_r_sorcery_fervent-resolve.png",
+      "path": "assets/cards/common/common_r_sorcery_fervent-resolve.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "fervent-resolve",
+      "name": "Fervent Resolve"
+    },
+    {
+      "filename": "common_r_enchantment_senseless-rage.png",
+      "path": "assets/cards/common/common_r_enchantment_senseless-rage.png",
+      "rarity": "common",
+      "color": "R",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "senseless-rage",
+      "name": "Senseless Rage"
+    },
+    {
+      "filename": "common_rg_creature_shepherd-tracker.png",
+      "path": "assets/cards/common/common_rg_creature_shepherd-tracker.png",
+      "rarity": "common",
+      "color": "RG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "shepherd-tracker",
+      "name": "Shepherd Tracker"
+    },
+    {
+      "filename": "common_rg_creature_violent-brute.png",
+      "path": "assets/cards/common/common_rg_creature_violent-brute.png",
+      "rarity": "common",
+      "color": "RG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "violent-brute",
+      "name": "Violent Brute"
+    },
+    {
+      "filename": "common_rg_instant_colossal-might.png",
+      "path": "assets/cards/common/common_rg_instant_colossal-might.png",
+      "rarity": "common",
+      "color": "RG",
+      "colorCount": 2,
+      "type": "instant",
+      "slug": "colossal-might",
+      "name": "Colossal Might"
+    },
+    {
+      "filename": "common_u_creature_creeping-thug.png",
+      "path": "assets/cards/common/common_u_creature_creeping-thug.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "creeping-thug",
+      "name": "Creeping Thug"
+    },
+    {
+      "filename": "common_u_creature_crystal-master.png",
+      "path": "assets/cards/common/common_u_creature_crystal-master.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "crystal-master",
+      "name": "Crystal Master"
+    },
+    {
+      "filename": "common_u_creature_exiled-transgressor.png",
+      "path": "assets/cards/common/common_u_creature_exiled-transgressor.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "exiled-transgressor",
+      "name": "Exiled Transgressor"
+    },
+    {
+      "filename": "common_u_creature_phantom-general.png",
+      "path": "assets/cards/common/common_u_creature_phantom-general.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "phantom-general",
+      "name": "Phantom General"
+    },
+    {
+      "filename": "common_u_creature_rankless-mariners.png",
+      "path": "assets/cards/common/common_u_creature_rankless-mariners.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "rankless-mariners",
+      "name": "Rankless Mariners"
+    },
+    {
+      "filename": "common_u_creature_slick-outlaw.png",
+      "path": "assets/cards/common/common_u_creature_slick-outlaw.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "slick-outlaw",
+      "name": "Slick Outlaw"
+    },
+    {
+      "filename": "common_u_creature_steel-marine-saint.png",
+      "path": "assets/cards/common/common_u_creature_steel-marine-saint.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "steel-marine-saint",
+      "name": "Steel Marine Saint"
+    },
+    {
+      "filename": "common_u_instant_absolute-zero.png",
+      "path": "assets/cards/common/common_u_instant_absolute-zero.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "absolute-zero",
+      "name": "Absolute Zero"
+    },
+    {
+      "filename": "common_u_instant_freeze-in-place.png",
+      "path": "assets/cards/common/common_u_instant_freeze-in-place.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "freeze-in-place",
+      "name": "Freeze In Place"
+    },
+    {
+      "filename": "common_u_instant_heart-hunt.png",
+      "path": "assets/cards/common/common_u_instant_heart-hunt.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "heart-hunt",
+      "name": "Heart Hunt"
+    },
+    {
+      "filename": "common_u_instant_into-the-roil.png",
+      "path": "assets/cards/common/common_u_instant_into-the-roil.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "into-the-roil",
+      "name": "Into The Roil"
+    },
+    {
+      "filename": "common_u_instant_prohibit.png",
+      "path": "assets/cards/common/common_u_instant_prohibit.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "prohibit",
+      "name": "Prohibit"
+    },
+    {
+      "filename": "common_u_instant_repeal.png",
+      "path": "assets/cards/common/common_u_instant_repeal.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "repeal",
+      "name": "Repeal"
+    },
+    {
+      "filename": "common_u_instant_think-twice.png",
+      "path": "assets/cards/common/common_u_instant_think-twice.png",
+      "rarity": "common",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "think-twice",
+      "name": "Think Twice"
+    },
+    {
+      "filename": "common_ub_instant_freezing-backstab.png",
+      "path": "assets/cards/common/common_ub_instant_freezing-backstab.png",
+      "rarity": "common",
+      "color": "UB",
+      "colorCount": 2,
+      "type": "instant",
+      "slug": "freezing-backstab",
+      "name": "Freezing Backstab"
+    },
+    {
+      "filename": "common_gu_creature_poseidons-mermaid.png",
+      "path": "assets/cards/common/common_gu_creature_poseidons-mermaid.png",
+      "rarity": "common",
+      "color": "UG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "poseidons-mermaid",
+      "name": "Poseidons Mermaid"
+    },
+    {
+      "filename": "common_gu_creature_steel-land-saint.png",
+      "path": "assets/cards/common/common_gu_creature_steel-land-saint.png",
+      "rarity": "common",
+      "color": "UG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "steel-land-saint",
+      "name": "Steel Land Saint"
+    },
+    {
+      "filename": "common_ur_creature_concerned-sister.png",
+      "path": "assets/cards/common/common_ur_creature_concerned-sister.png",
+      "rarity": "common",
+      "color": "UR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "concerned-sister",
+      "name": "Concerned Sister"
+    },
+    {
+      "filename": "common_ur_creature_sanctuary-captain.png",
+      "path": "assets/cards/common/common_ur_creature_sanctuary-captain.png",
+      "rarity": "common",
+      "color": "UR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "sanctuary-captain",
+      "name": "Sanctuary Captain"
+    },
+    {
+      "filename": "common_ur_creature_telekinetic-saboteur.png",
+      "path": "assets/cards/common/common_ur_creature_telekinetic-saboteur.png",
+      "rarity": "common",
+      "color": "UR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "telekinetic-saboteur",
+      "name": "Telekinetic Saboteur"
+    },
+    {
+      "filename": "common_w_creature_caretaker-companion.png",
+      "path": "assets/cards/common/common_w_creature_caretaker-companion.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "caretaker-companion",
+      "name": "Caretaker Companion"
+    },
+    {
+      "filename": "common_w_creature_long-lost-sister.png",
+      "path": "assets/cards/common/common_w_creature_long-lost-sister.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "long-lost-sister",
+      "name": "Long Lost Sister"
+    },
+    {
+      "filename": "common_w_creature_sanctuary-apprentice.png",
+      "path": "assets/cards/common/common_w_creature_sanctuary-apprentice.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "sanctuary-apprentice",
+      "name": "Sanctuary Apprentice"
+    },
+    {
+      "filename": "common_w_creature_sanctuary-soldier.png",
+      "path": "assets/cards/common/common_w_creature_sanctuary-soldier.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "sanctuary-soldier",
+      "name": "Sanctuary Soldier"
+    },
+    {
+      "filename": "common_w_creature_sons-of-the-stars.png",
+      "path": "assets/cards/common/common_w_creature_sons-of-the-stars.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "sons-of-the-stars",
+      "name": "Sons Of The Stars"
+    },
+    {
+      "filename": "common_w_instant_defiant-strike.png",
+      "path": "assets/cards/common/common_w_instant_defiant-strike.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "defiant-strike",
+      "name": "Defiant Strike"
+    },
+    {
+      "filename": "common_w_instant_feeling-of-dread.png",
+      "path": "assets/cards/common/common_w_instant_feeling-of-dread.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "feeling-of-dread",
+      "name": "Feeling Of Dread"
+    },
+    {
+      "filename": "common_w_instant_loves-sacrifice.png",
+      "path": "assets/cards/common/common_w_instant_loves-sacrifice.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "loves-sacrifice",
+      "name": "Loves Sacrifice"
+    },
+    {
+      "filename": "common_w_instant_moment-of-heroism.png",
+      "path": "assets/cards/common/common_w_instant_moment-of-heroism.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "moment-of-heroism",
+      "name": "Moment Of Heroism"
+    },
+    {
+      "filename": "common_w_instant_petrify.png",
+      "path": "assets/cards/common/common_w_instant_petrify.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "petrify",
+      "name": "Petrify"
+    },
+    {
+      "filename": "common_w_instant_strip-bare.png",
+      "path": "assets/cards/common/common_w_instant_strip-bare.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "strip-bare",
+      "name": "Strip Bare"
+    },
+    {
+      "filename": "common_w_instant_wings-of-the-cosmos.png",
+      "path": "assets/cards/common/common_w_instant_wings-of-the-cosmos.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "wings-of-the-cosmos",
+      "name": "Wings Of The Cosmos"
+    },
+    {
+      "filename": "common_w_sorcery_revoke-existence.png",
+      "path": "assets/cards/common/common_w_sorcery_revoke-existence.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "revoke-existence",
+      "name": "Revoke Existence"
+    },
+    {
+      "filename": "common_w_sorcery_take-vengeance.png",
+      "path": "assets/cards/common/common_w_sorcery_take-vengeance.png",
+      "rarity": "common",
+      "color": "W",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "take-vengeance",
+      "name": "Take Vengeance"
+    },
+    {
+      "filename": "common_gw_creature_petrified-lover.png",
+      "path": "assets/cards/common/common_gw_creature_petrified-lover.png",
+      "rarity": "common",
+      "color": "WG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "petrified-lover",
+      "name": "Petrified Lover"
+    },
+    {
+      "filename": "common_gw_creature_unremarkable-saint.png",
+      "path": "assets/cards/common/common_gw_creature_unremarkable-saint.png",
+      "rarity": "common",
+      "color": "WG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "unremarkable-saint",
+      "name": "Unremarkable Saint"
+    },
+    {
+      "filename": "common_rw_creature_envious-colleague.png",
+      "path": "assets/cards/common/common_rw_creature_envious-colleague.png",
+      "rarity": "common",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "envious-colleague",
+      "name": "Envious Colleague"
+    },
+    {
+      "filename": "common_rw_creature_opportunistic-colleague.png",
+      "path": "assets/cards/common/common_rw_creature_opportunistic-colleague.png",
+      "rarity": "common",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "opportunistic-colleague",
+      "name": "Opportunistic Colleague"
+    },
+    {
+      "filename": "common_rw_creature_restless-unicorn.png",
+      "path": "assets/cards/common/common_rw_creature_restless-unicorn.png",
+      "rarity": "common",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "restless-unicorn",
+      "name": "Restless Unicorn"
+    },
+    {
+      "filename": "common_wu_creature_popes-right-hand.png",
+      "path": "assets/cards/common/common_wu_creature_popes-right-hand.png",
+      "rarity": "common",
+      "color": "WU",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "popes-right-hand",
+      "name": "Popes Right Hand"
+    },
+    {
+      "filename": "common_wu_creature_siberian-companion.png",
+      "path": "assets/cards/common/common_wu_creature_siberian-companion.png",
+      "rarity": "common",
+      "color": "WU",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "siberian-companion",
+      "name": "Siberian Companion"
+    },
+    {
+      "filename": "common_wu_creature_steel-sky-saint.png",
+      "path": "assets/cards/common/common_wu_creature_steel-sky-saint.png",
+      "rarity": "common",
+      "color": "WU",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "steel-sky-saint",
+      "name": "Steel Sky Saint"
+    },
+    {
+      "filename": "uncommon_b_creature_lune-balron-hero.png",
+      "path": "assets/cards/uncommon/uncommon_b_creature_lune-balron-hero.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "lune-balron-hero",
+      "name": "Lune Balron Hero"
+    },
+    {
+      "filename": "uncommon_b_creature_myu-bewitching-evolution.png",
+      "path": "assets/cards/uncommon/uncommon_b_creature_myu-bewitching-evolution.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "myu-bewitching-evolution",
+      "name": "Myu Bewitching Evolution"
+    },
+    {
+      "filename": "uncommon_b_creature_pharaoh-bestial-sphinx.png",
+      "path": "assets/cards/uncommon/uncommon_b_creature_pharaoh-bestial-sphinx.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "pharaoh-bestial-sphinx",
+      "name": "Pharaoh Bestial Sphinx"
+    },
+    {
+      "filename": "uncommon_b_creature_valentine-shifting-lamentation.png",
+      "path": "assets/cards/uncommon/uncommon_b_creature_valentine-shifting-lamentation.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "valentine-shifting-lamentation",
+      "name": "Valentine Shifting Lamentation"
+    },
+    {
+      "filename": "uncommon_b_instant_dark-withering.png",
+      "path": "assets/cards/uncommon/uncommon_b_instant_dark-withering.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "dark-withering",
+      "name": "Dark Withering"
+    },
+    {
+      "filename": "uncommon_b_sorcery_dull-the-senses.png",
+      "path": "assets/cards/uncommon/uncommon_b_sorcery_dull-the-senses.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "dull-the-senses",
+      "name": "Dull The Senses"
+    },
+    {
+      "filename": "uncommon_b_sorcery_exhume.png",
+      "path": "assets/cards/uncommon/uncommon_b_sorcery_exhume.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "exhume",
+      "name": "Exhume"
+    },
+    {
+      "filename": "uncommon_b_sorcery_strategic-betrayal.png",
+      "path": "assets/cards/uncommon/uncommon_b_sorcery_strategic-betrayal.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "strategic-betrayal",
+      "name": "Strategic Betrayal"
+    },
+    {
+      "filename": "uncommon_b_artifact_phoenix-cloth.png",
+      "path": "assets/cards/uncommon/uncommon_b_artifact_phoenix-cloth.png",
+      "rarity": "uncommon",
+      "color": "B",
+      "colorCount": 1,
+      "type": "artifact",
+      "slug": "phoenix-cloth",
+      "name": "Phoenix Cloth"
+    },
+    {
+      "filename": "uncommon_bg_creature_algol-seizing-perseus.png",
+      "path": "assets/cards/uncommon/uncommon_bg_creature_algol-seizing-perseus.png",
+      "rarity": "uncommon",
+      "color": "BG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "algol-seizing-perseus",
+      "name": "Algol Seizing Perseus"
+    },
+    {
+      "filename": "uncommon_bg_creature_dio-vengeful-flight.png",
+      "path": "assets/cards/uncommon/uncommon_bg_creature_dio-vengeful-flight.png",
+      "rarity": "uncommon",
+      "color": "BG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "dio-vengeful-flight",
+      "name": "Dio Vengeful Flight"
+    },
+    {
+      "filename": "uncommon_br_enchantment_training-at-the-death-queen-island.png",
+      "path": "assets/cards/uncommon/uncommon_br_enchantment_training-at-the-death-queen-island.png",
+      "rarity": "uncommon",
+      "color": "BR",
+      "colorCount": 2,
+      "type": "enchantment",
+      "slug": "training-at-the-death-queen-island",
+      "name": "Training At The Death Queen Island"
+    },
+    {
+      "filename": "uncommon_brg_creature_underworld-dreadhound.png",
+      "path": "assets/cards/uncommon/uncommon_brg_creature_underworld-dreadhound.png",
+      "rarity": "uncommon",
+      "color": "BRG",
+      "colorCount": 3,
+      "type": "creature",
+      "slug": "underworld-dreadhound",
+      "name": "Underworld Dreadhound"
+    },
+    {
+      "filename": "uncommon_c_artifact_cursed-pendant.png",
+      "path": "assets/cards/uncommon/uncommon_c_artifact_cursed-pendant.png",
+      "rarity": "uncommon",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "cursed-pendant",
+      "name": "Cursed Pendant"
+    },
+    {
+      "filename": "uncommon_c_artifact_libra-nunchaku.png",
+      "path": "assets/cards/uncommon/uncommon_c_artifact_libra-nunchaku.png",
+      "rarity": "uncommon",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "libra-nunchaku",
+      "name": "Libra Nunchaku"
+    },
+    {
+      "filename": "uncommon_c_artifact_libra-sansetsukon.png",
+      "path": "assets/cards/uncommon/uncommon_c_artifact_libra-sansetsukon.png",
+      "rarity": "uncommon",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "libra-sansetsukon",
+      "name": "Libra Sansetsukon"
+    },
+    {
+      "filename": "uncommon_c_artifact_libra-shield.png",
+      "path": "assets/cards/uncommon/uncommon_c_artifact_libra-shield.png",
+      "rarity": "uncommon",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "libra-shield",
+      "name": "Libra Shield"
+    },
+    {
+      "filename": "uncommon_c_artifact_libra-spear.png",
+      "path": "assets/cards/uncommon/uncommon_c_artifact_libra-spear.png",
+      "rarity": "uncommon",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "libra-spear",
+      "name": "Libra Spear"
+    },
+    {
+      "filename": "uncommon_c_artifact_libra-sword.png",
+      "path": "assets/cards/uncommon/uncommon_c_artifact_libra-sword.png",
+      "rarity": "uncommon",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "libra-sword",
+      "name": "Libra Sword"
+    },
+    {
+      "filename": "uncommon_c_artifact_libra-tonphas.png",
+      "path": "assets/cards/uncommon/uncommon_c_artifact_libra-tonphas.png",
+      "rarity": "uncommon",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "libra-tonphas",
+      "name": "Libra Tonphas"
+    },
+    {
+      "filename": "uncommon_g_creature_fenrir-howling-alioth.png",
+      "path": "assets/cards/uncommon/uncommon_g_creature_fenrir-howling-alioth.png",
+      "rarity": "uncommon",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "fenrir-howling-alioth",
+      "name": "Fenrir Howling Alioth"
+    },
+    {
+      "filename": "uncommon_g_sorcery_travel-preparations.png",
+      "path": "assets/cards/uncommon/uncommon_g_sorcery_travel-preparations.png",
+      "rarity": "uncommon",
+      "color": "G",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "travel-preparations",
+      "name": "Travel Preparations"
+    },
+    {
+      "filename": "uncommon_g_enchantment_training-at-the-five-ancient-peaks.png",
+      "path": "assets/cards/uncommon/uncommon_g_enchantment_training-at-the-five-ancient-peaks.png",
+      "rarity": "uncommon",
+      "color": "G",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "training-at-the-five-ancient-peaks",
+      "name": "Training At The Five Ancient Peaks"
+    },
+    {
+      "filename": "uncommon_g_artifact_dragon-cloth.png",
+      "path": "assets/cards/uncommon/uncommon_g_artifact_dragon-cloth.png",
+      "rarity": "uncommon",
+      "color": "G",
+      "colorCount": 1,
+      "type": "artifact",
+      "slug": "dragon-cloth",
+      "name": "Dragon Cloth"
+    },
+    {
+      "filename": "uncommon_r_creature_babel-blazing-centaurus.png",
+      "path": "assets/cards/uncommon/uncommon_r_creature_babel-blazing-centaurus.png",
+      "rarity": "uncommon",
+      "color": "R",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "babel-blazing-centaurus",
+      "name": "Babel Blazing Centaurus"
+    },
+    {
+      "filename": "uncommon_r_creature_inventors-apprentice.png",
+      "path": "assets/cards/uncommon/uncommon_r_creature_inventors-apprentice.png",
+      "rarity": "uncommon",
+      "color": "R",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "inventors-apprentice",
+      "name": "Inventors Apprentice"
+    },
+    {
+      "filename": "uncommon_r_sorcery_cathartic-reunion.png",
+      "path": "assets/cards/uncommon/uncommon_r_sorcery_cathartic-reunion.png",
+      "rarity": "uncommon",
+      "color": "R",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "cathartic-reunion",
+      "name": "Cathartic Reunion"
+    },
+    {
+      "filename": "uncommon_r_sorcery_pegasus-comet-fist.png",
+      "path": "assets/cards/uncommon/uncommon_r_sorcery_pegasus-comet-fist.png",
+      "rarity": "uncommon",
+      "color": "R",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "pegasus-comet-fist",
+      "name": "Pegasus Comet Fist"
+    },
+    {
+      "filename": "uncommon_r_enchantment_traverse-the-hyperdimension.png",
+      "path": "assets/cards/uncommon/uncommon_r_enchantment_traverse-the-hyperdimension.png",
+      "rarity": "uncommon",
+      "color": "R",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "traverse-the-hyperdimension",
+      "name": "Traverse The Hyperdimension"
+    },
+    {
+      "filename": "uncommon_r_artifact_pegasus-cloth.png",
+      "path": "assets/cards/uncommon/uncommon_r_artifact_pegasus-cloth.png",
+      "rarity": "uncommon",
+      "color": "R",
+      "colorCount": 1,
+      "type": "artifact",
+      "slug": "pegasus-cloth",
+      "name": "Pegasus Cloth"
+    },
+    {
+      "filename": "uncommon_rg_creature_algethi-imponent-heracles.png",
+      "path": "assets/cards/uncommon/uncommon_rg_creature_algethi-imponent-heracles.png",
+      "rarity": "uncommon",
+      "color": "RG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "algethi-imponent-heracles",
+      "name": "Algethi Imponent Heracles"
+    },
+    {
+      "filename": "uncommon_rg_creature_thor-devoted-phecda.png",
+      "path": "assets/cards/uncommon/uncommon_rg_creature_thor-devoted-phecda.png",
+      "rarity": "uncommon",
+      "color": "RG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "thor-devoted-phecda",
+      "name": "Thor Devoted Phecda"
+    },
+    {
+      "filename": "uncommon_u_creature_baian-winged-hippocampus.png",
+      "path": "assets/cards/uncommon/uncommon_u_creature_baian-winged-hippocampus.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "baian-winged-hippocampus",
+      "name": "Baian Winged Hippocampus"
+    },
+    {
+      "filename": "uncommon_u_creature_caca-illusion-of-lyumnades.png",
+      "path": "assets/cards/uncommon/uncommon_u_creature_caca-illusion-of-lyumnades.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "caca-illusion-of-lyumnades",
+      "name": "Caca Illusion Of Lyumnades"
+    },
+    {
+      "filename": "uncommon_u_creature_io-versatile-scylla.png",
+      "path": "assets/cards/uncommon/uncommon_u_creature_io-versatile-scylla.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "io-versatile-scylla",
+      "name": "Io Versatile Scylla"
+    },
+    {
+      "filename": "uncommon_u_creature_isaak-the-strayed-kraken.png",
+      "path": "assets/cards/uncommon/uncommon_u_creature_isaak-the-strayed-kraken.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "isaak-the-strayed-kraken",
+      "name": "Isaak The Strayed Kraken"
+    },
+    {
+      "filename": "uncommon_u_creature_krishna-blade-of-chrysaor.png",
+      "path": "assets/cards/uncommon/uncommon_u_creature_krishna-blade-of-chrysaor.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "krishna-blade-of-chrysaor",
+      "name": "Krishna Blade Of Chrysaor"
+    },
+    {
+      "filename": "uncommon_u_instant_dissipate.png",
+      "path": "assets/cards/uncommon/uncommon_u_instant_dissipate.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "dissipate",
+      "name": "Dissipate"
+    },
+    {
+      "filename": "uncommon_u_instant_succumb-to-the-cold.png",
+      "path": "assets/cards/uncommon/uncommon_u_instant_succumb-to-the-cold.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "succumb-to-the-cold",
+      "name": "Succumb To The Cold"
+    },
+    {
+      "filename": "uncommon_u_enchantment_delayed-deludge.png",
+      "path": "assets/cards/uncommon/uncommon_u_enchantment_delayed-deludge.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "delayed-deludge",
+      "name": "Delayed Deludge"
+    },
+    {
+      "filename": "uncommon_u_enchantment_training-at-west-siberia.png",
+      "path": "assets/cards/uncommon/uncommon_u_enchantment_training-at-west-siberia.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "training-at-west-siberia",
+      "name": "Training At West Siberia"
+    },
+    {
+      "filename": "uncommon_u_artifact_cygnus-cloth.png",
+      "path": "assets/cards/uncommon/uncommon_u_artifact_cygnus-cloth.png",
+      "rarity": "uncommon",
+      "color": "U",
+      "colorCount": 1,
+      "type": "artifact",
+      "slug": "cygnus-cloth",
+      "name": "Cygnus Cloth"
+    },
+    {
+      "filename": "uncommon_ub_creature_syd-claws-of-mizar.png",
+      "path": "assets/cards/uncommon/uncommon_ub_creature_syd-claws-of-mizar.png",
+      "rarity": "uncommon",
+      "color": "UB",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "syd-claws-of-mizar",
+      "name": "Syd Claws Of Mizar"
+    },
+    {
+      "filename": "uncommon_ubr_creature_alberich-megrez-manipulator.png",
+      "path": "assets/cards/uncommon/uncommon_ubr_creature_alberich-megrez-manipulator.png",
+      "rarity": "uncommon",
+      "color": "UBR",
+      "colorCount": 3,
+      "type": "creature",
+      "slug": "alberich-megrez-manipulator",
+      "name": "Alberich Megrez Manipulator"
+    },
+    {
+      "filename": "uncommon_ug_creature_jamian-crow-tamer.png",
+      "path": "assets/cards/uncommon/uncommon_ug_creature_jamian-crow-tamer.png",
+      "rarity": "uncommon",
+      "color": "UG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "jamian-crow-tamer",
+      "name": "Jamian Crow Tamer"
+    },
+    {
+      "filename": "uncommon_ug_creature_moses-the-great-whale.png",
+      "path": "assets/cards/uncommon/uncommon_ug_creature_moses-the-great-whale.png",
+      "rarity": "uncommon",
+      "color": "UG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "moses-the-great-whale",
+      "name": "Moses The Great Whale"
+    },
+    {
+      "filename": "uncommon_ur_creature_asterion-telepathic-hound.png",
+      "path": "assets/cards/uncommon/uncommon_ur_creature_asterion-telepathic-hound.png",
+      "rarity": "uncommon",
+      "color": "UR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "asterion-telepathic-hound",
+      "name": "Asterion Telepathic Hound"
+    },
+    {
+      "filename": "uncommon_ur_creature_hagen-ardent-merak.png",
+      "path": "assets/cards/uncommon/uncommon_ur_creature_hagen-ardent-merak.png",
+      "rarity": "uncommon",
+      "color": "UR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "hagen-ardent-merak",
+      "name": "Hagen Ardent Merak"
+    },
+    {
+      "filename": "uncommon_ur_instant_meraks-breath.png",
+      "path": "assets/cards/uncommon/uncommon_ur_instant_meraks-breath.png",
+      "rarity": "uncommon",
+      "color": "UR",
+      "colorCount": 2,
+      "type": "instant",
+      "slug": "meraks-breath",
+      "name": "Meraks Breath"
+    },
+    {
+      "filename": "uncommon_ur_enchantment_training-at-andromeda-island.png",
+      "path": "assets/cards/uncommon/uncommon_ur_enchantment_training-at-andromeda-island.png",
+      "rarity": "uncommon",
+      "color": "UR",
+      "colorCount": 2,
+      "type": "enchantment",
+      "slug": "training-at-andromeda-island",
+      "name": "Training At Andromeda Island"
+    },
+    {
+      "filename": "uncommon_gur_creature_mime-benetnasch-tragedy.png",
+      "path": "assets/cards/uncommon/uncommon_gur_creature_mime-benetnasch-tragedy.png",
+      "rarity": "uncommon",
+      "color": "URG",
+      "colorCount": 3,
+      "type": "creature",
+      "slug": "mime-benetnasch-tragedy",
+      "name": "Mime Benetnasch Tragedy"
+    },
+    {
+      "filename": "uncommon_w_creature_albiore-cepheus-tutor.png",
+      "path": "assets/cards/uncommon/uncommon_w_creature_albiore-cepheus-tutor.png",
+      "rarity": "uncommon",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "albiore-cepheus-tutor",
+      "name": "Albiore Cepheus Tutor"
+    },
+    {
+      "filename": "uncommon_w_creature_marin-brave-mentor.png",
+      "path": "assets/cards/uncommon/uncommon_w_creature_marin-brave-mentor.png",
+      "rarity": "uncommon",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "marin-brave-mentor",
+      "name": "Marin Brave Mentor"
+    },
+    {
+      "filename": "uncommon_w_creature_the-pope-athenas-voice.png",
+      "path": "assets/cards/uncommon/uncommon_w_creature_the-pope-athenas-voice.png",
+      "rarity": "uncommon",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "the-pope-athenas-voice",
+      "name": "The Pope Athenas Voice"
+    },
+    {
+      "filename": "uncommon_w_instant_celestial-purge.png",
+      "path": "assets/cards/uncommon/uncommon_w_instant_celestial-purge.png",
+      "rarity": "uncommon",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "celestial-purge",
+      "name": "Celestial Purge"
+    },
+    {
+      "filename": "uncommon_w_artifact_andromeda-cloth.png",
+      "path": "assets/cards/uncommon/uncommon_w_artifact_andromeda-cloth.png",
+      "rarity": "uncommon",
+      "color": "W",
+      "colorCount": 1,
+      "type": "artifact",
+      "slug": "andromeda-cloth",
+      "name": "Andromeda Cloth"
+    },
+    {
+      "filename": "uncommon_wb_creature_misty-narcissistic-lizard.png",
+      "path": "assets/cards/uncommon/uncommon_wb_creature_misty-narcissistic-lizard.png",
+      "rarity": "uncommon",
+      "color": "WB",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "misty-narcissistic-lizard",
+      "name": "Misty Narcissistic Lizard"
+    },
+    {
+      "filename": "uncommon_wb_creature_ptolemy-godslayer-arrow.png",
+      "path": "assets/cards/uncommon/uncommon_wb_creature_ptolemy-godslayer-arrow.png",
+      "rarity": "uncommon",
+      "color": "WB",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "ptolemy-godslayer-arrow",
+      "name": "Ptolemy Godslayer Arrow"
+    },
+    {
+      "filename": "uncommon_wb_enchantment_blasphemous-ambush.png",
+      "path": "assets/cards/uncommon/uncommon_wb_enchantment_blasphemous-ambush.png",
+      "rarity": "uncommon",
+      "color": "WB",
+      "colorCount": 2,
+      "type": "enchantment",
+      "slug": "blasphemous-ambush",
+      "name": "Blasphemous Ambush"
+    },
+    {
+      "filename": "uncommon_rwb_creature_shaina-fangless-snake.png",
+      "path": "assets/cards/uncommon/uncommon_rwb_creature_shaina-fangless-snake.png",
+      "rarity": "uncommon",
+      "color": "WBR",
+      "colorCount": 3,
+      "type": "creature",
+      "slug": "shaina-fangless-snake",
+      "name": "Shaina Fangless Snake"
+    },
+    {
+      "filename": "uncommon_rwb_sorcery_merciful-obedience.png",
+      "path": "assets/cards/uncommon/uncommon_rwb_sorcery_merciful-obedience.png",
+      "rarity": "uncommon",
+      "color": "WBR",
+      "colorCount": 3,
+      "type": "sorcery",
+      "slug": "merciful-obedience",
+      "name": "Merciful Obedience"
+    },
+    {
+      "filename": "uncommon_gw_creature_june-affectionate-whip-wielder.png",
+      "path": "assets/cards/uncommon/uncommon_gw_creature_june-affectionate-whip-wielder.png",
+      "rarity": "uncommon",
+      "color": "WG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "june-affectionate-whip-wielder",
+      "name": "June Affectionate Whip Wielder"
+    },
+    {
+      "filename": "uncommon_gw_creature_sirius-overseeing-canis.png",
+      "path": "assets/cards/uncommon/uncommon_gw_creature_sirius-overseeing-canis.png",
+      "rarity": "uncommon",
+      "color": "WG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "sirius-overseeing-canis",
+      "name": "Sirius Overseeing Canis"
+    },
+    {
+      "filename": "uncommon_gw_instant_collision-of-absolutes.png",
+      "path": "assets/cards/uncommon/uncommon_gw_instant_collision-of-absolutes.png",
+      "rarity": "uncommon",
+      "color": "WG",
+      "colorCount": 2,
+      "type": "instant",
+      "slug": "collision-of-absolutes",
+      "name": "Collision Of Absolutes"
+    },
+    {
+      "filename": "uncommon_rw_creature_capella-auriga-saucer.png",
+      "path": "assets/cards/uncommon/uncommon_rw_creature_capella-auriga-saucer.png",
+      "rarity": "uncommon",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "capella-auriga-saucer",
+      "name": "Capella Auriga Saucer"
+    },
+    {
+      "filename": "uncommon_rw_creature_dante-chained-cerberus.png",
+      "path": "assets/cards/uncommon/uncommon_rw_creature_dante-chained-cerberus.png",
+      "rarity": "uncommon",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "dante-chained-cerberus",
+      "name": "Dante Chained Cerberus"
+    },
+    {
+      "filename": "uncommon_rw_creature_restless-rival.png",
+      "path": "assets/cards/uncommon/uncommon_rw_creature_restless-rival.png",
+      "rarity": "uncommon",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "restless-rival",
+      "name": "Restless Rival"
+    },
+    {
+      "filename": "uncommon_rw_enchantment_training-at-the-sanctuary.png",
+      "path": "assets/cards/uncommon/uncommon_rw_enchantment_training-at-the-sanctuary.png",
+      "rarity": "uncommon",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "enchantment",
+      "slug": "training-at-the-sanctuary",
+      "name": "Training At The Sanctuary"
+    },
+    {
+      "filename": "uncommon_wu_creature_bud-claws-of-alcor.png",
+      "path": "assets/cards/uncommon/uncommon_wu_creature_bud-claws-of-alcor.png",
+      "rarity": "uncommon",
+      "color": "WU",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "bud-claws-of-alcor",
+      "name": "Bud Claws Of Alcor"
+    },
+    {
+      "filename": "uncommon_wu_enchantment_master-and-pupil-reunion.png",
+      "path": "assets/cards/uncommon/uncommon_wu_enchantment_master-and-pupil-reunion.png",
+      "rarity": "uncommon",
+      "color": "WU",
+      "colorCount": 2,
+      "type": "enchantment",
+      "slug": "master-and-pupil-reunion",
+      "name": "Master And Pupil Reunion"
+    },
+    {
+      "filename": "rare_b_creature_aiacos-valiant-garuda.png",
+      "path": "assets/cards/rare/rare_b_creature_aiacos-valiant-garuda.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "aiacos-valiant-garuda",
+      "name": "Aiacos Valiant Garuda"
+    },
+    {
+      "filename": "rare_b_creature_minos-noble-griffon.png",
+      "path": "assets/cards/rare/rare_b_creature_minos-noble-griffon.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "minos-noble-griffon",
+      "name": "Minos Noble Griffon"
+    },
+    {
+      "filename": "rare_b_creature_pandora-handes-servant.png",
+      "path": "assets/cards/rare/rare_b_creature_pandora-handes-servant.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "pandora-handes-servant",
+      "name": "Pandora Handes Servant"
+    },
+    {
+      "filename": "rare_b_creature_rhadamanthys-savage-wyvern.png",
+      "path": "assets/cards/rare/rare_b_creature_rhadamanthys-savage-wyvern.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "rhadamanthys-savage-wyvern",
+      "name": "Rhadamanthys Savage Wyvern"
+    },
+    {
+      "filename": "rare_b_creature_shun-hades-host.png",
+      "path": "assets/cards/rare/rare_b_creature_shun-hades-host.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "shun-hades-host",
+      "name": "Shun Hades Host"
+    },
+    {
+      "filename": "rare_b_sorcery_arayashiki.png",
+      "path": "assets/cards/rare/rare_b_sorcery_arayashiki.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "arayashiki",
+      "name": "Arayashiki"
+    },
+    {
+      "filename": "rare_b_sorcery_hades-intervention.png",
+      "path": "assets/cards/rare/rare_b_sorcery_hades-intervention.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "hades-intervention",
+      "name": "Hades Intervention"
+    },
+    {
+      "filename": "rare_b_sorcery_increasing-ambition.png",
+      "path": "assets/cards/rare/rare_b_sorcery_increasing-ambition.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "increasing-ambition",
+      "name": "Increasing Ambition"
+    },
+    {
+      "filename": "rare_b_enchantment_sagas-corruption.png",
+      "path": "assets/cards/rare/rare_b_enchantment_sagas-corruption.png",
+      "rarity": "rare",
+      "color": "B",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "sagas-corruption",
+      "name": "Sagas Corruption"
+    },
+    {
+      "filename": "rare_bg_creature_odysseus-divine-ophiucus.png",
+      "path": "assets/cards/rare/rare_bg_creature_odysseus-divine-ophiucus.png",
+      "rarity": "rare",
+      "color": "BG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "odysseus-divine-ophiucus",
+      "name": "Odysseus Divine Ophiucus"
+    },
+    {
+      "filename": "rare_br_creature_deathmask-sadistic-cancer.png",
+      "path": "assets/cards/rare/rare_br_creature_deathmask-sadistic-cancer.png",
+      "rarity": "rare",
+      "color": "BR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "deathmask-sadistic-cancer",
+      "name": "Deathmask Sadistic Cancer"
+    },
+    {
+      "filename": "rare_c_artifact_108-bead-rosary.png",
+      "path": "assets/cards/rare/rare_c_artifact_108-bead-rosary.png",
+      "rarity": "rare",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "108-bead-rosary",
+      "name": "108 Bead Rosary"
+    },
+    {
+      "filename": "rare_c_artifact_the-fire-clock.png",
+      "path": "assets/cards/rare/rare_c_artifact_the-fire-clock.png",
+      "rarity": "rare",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "the-fire-clock",
+      "name": "The Fire Clock"
+    },
+    {
+      "filename": "rare_c_artifact_the-golden-dagger.png",
+      "path": "assets/cards/rare/rare_c_artifact_the-golden-dagger.png",
+      "rarity": "rare",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "the-golden-dagger",
+      "name": "The Golden Dagger"
+    },
+    {
+      "filename": "rare_c_land_death-queen-island.png",
+      "path": "assets/cards/rare/rare_c_land_death-queen-island.png",
+      "rarity": "rare",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "death-queen-island",
+      "name": "Death Queen Island"
+    },
+    {
+      "filename": "rare_c_land_five-ancient-peaks.png",
+      "path": "assets/cards/rare/rare_c_land_five-ancient-peaks.png",
+      "rarity": "rare",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "five-ancient-peaks",
+      "name": "Five Ancient Peaks"
+    },
+    {
+      "filename": "rare_c_land_temple-of-poseidon.png",
+      "path": "assets/cards/rare/rare_c_land_temple-of-poseidon.png",
+      "rarity": "rare",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "temple-of-poseidon",
+      "name": "Temple Of Poseidon"
+    },
+    {
+      "filename": "rare_c_land_the-sanctuary.png",
+      "path": "assets/cards/rare/rare_c_land_the-sanctuary.png",
+      "rarity": "rare",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "the-sanctuary",
+      "name": "The Sanctuary"
+    },
+    {
+      "filename": "rare_c_land_the-underworld.png",
+      "path": "assets/cards/rare/rare_c_land_the-underworld.png",
+      "rarity": "rare",
+      "color": "C",
+      "colorCount": 0,
+      "type": "land",
+      "slug": "the-underworld",
+      "name": "The Underworld"
+    },
+    {
+      "filename": "rare_g_creature_aphrodite-venomous-pisces.png",
+      "path": "assets/cards/rare/rare_g_creature_aphrodite-venomous-pisces.png",
+      "rarity": "rare",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "aphrodite-venomous-pisces",
+      "name": "Aphrodite Venomous Pisces"
+    },
+    {
+      "filename": "rare_g_instant_collected-company.png",
+      "path": "assets/cards/rare/rare_g_instant_collected-company.png",
+      "rarity": "rare",
+      "color": "G",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "collected-company",
+      "name": "Collected Company"
+    },
+    {
+      "filename": "rare_g_instant_heroic-intervention.png",
+      "path": "assets/cards/rare/rare_g_instant_heroic-intervention.png",
+      "rarity": "rare",
+      "color": "G",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "heroic-intervention",
+      "name": "Heroic Intervention"
+    },
+    {
+      "filename": "rare_g_sorcery_artemis-intervention.png",
+      "path": "assets/cards/rare/rare_g_sorcery_artemis-intervention.png",
+      "rarity": "rare",
+      "color": "G",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "artemis-intervention",
+      "name": "Artemis Intervention"
+    },
+    {
+      "filename": "rare_g_sorcery_misopethamenos.png",
+      "path": "assets/cards/rare/rare_g_sorcery_misopethamenos.png",
+      "rarity": "rare",
+      "color": "G",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "misopethamenos",
+      "name": "Misopethamenos"
+    },
+    {
+      "filename": "rare_g_enchantment_hardened-scales.png",
+      "path": "assets/cards/rare/rare_g_enchantment_hardened-scales.png",
+      "rarity": "rare",
+      "color": "G",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "hardened-scales",
+      "name": "Hardened Scales"
+    },
+    {
+      "filename": "rare_r_creature_aiolia-lightning-leo.png",
+      "path": "assets/cards/rare/rare_r_creature_aiolia-lightning-leo.png",
+      "rarity": "rare",
+      "color": "R",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "aiolia-lightning-leo",
+      "name": "Aiolia Lightning Leo"
+    },
+    {
+      "filename": "rare_r_instant_wild-ricochet.png",
+      "path": "assets/cards/rare/rare_r_instant_wild-ricochet.png",
+      "rarity": "rare",
+      "color": "R",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "wild-ricochet",
+      "name": "Wild Ricochet"
+    },
+    {
+      "filename": "rare_r_sorcery_reforge-the-soul.png",
+      "path": "assets/cards/rare/rare_r_sorcery_reforge-the-soul.png",
+      "rarity": "rare",
+      "color": "R",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "reforge-the-soul",
+      "name": "Reforge The Soul"
+    },
+    {
+      "filename": "rare_r_enchantment_ring-of-nibelungens-possession.png",
+      "path": "assets/cards/rare/rare_r_enchantment_ring-of-nibelungens-possession.png",
+      "rarity": "rare",
+      "color": "R",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "ring-of-nibelungens-possession",
+      "name": "Ring Of Nibelungens Possession"
+    },
+    {
+      "filename": "rare_rg_creature_aldebaran-steadfast-taurus.png",
+      "path": "assets/cards/rare/rare_rg_creature_aldebaran-steadfast-taurus.png",
+      "rarity": "rare",
+      "color": "RG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "aldebaran-steadfast-taurus",
+      "name": "Aldebaran Steadfast Taurus"
+    },
+    {
+      "filename": "rare_rg_creature_theseus-light-of-artemis.png",
+      "path": "assets/cards/rare/rare_rg_creature_theseus-light-of-artemis.png",
+      "rarity": "rare",
+      "color": "RG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "theseus-light-of-artemis",
+      "name": "Theseus Light Of Artemis"
+    },
+    {
+      "filename": "rare_u_creature_camus-aquarius-mentor.png",
+      "path": "assets/cards/rare/rare_u_creature_camus-aquarius-mentor.png",
+      "rarity": "rare",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "camus-aquarius-mentor",
+      "name": "Camus Aquarius Mentor"
+    },
+    {
+      "filename": "rare_u_creature_kanon-mischievous-sea-dragon.png",
+      "path": "assets/cards/rare/rare_u_creature_kanon-mischievous-sea-dragon.png",
+      "rarity": "rare",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "kanon-mischievous-sea-dragon",
+      "name": "Kanon Mischievous Sea Dragon"
+    },
+    {
+      "filename": "rare_u_creature_sorrento-alluring-siren.png",
+      "path": "assets/cards/rare/rare_u_creature_sorrento-alluring-siren.png",
+      "rarity": "rare",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "sorrento-alluring-siren",
+      "name": "Sorrento Alluring Siren"
+    },
+    {
+      "filename": "rare_u_instant_consult-the-star-charts.png",
+      "path": "assets/cards/rare/rare_u_instant_consult-the-star-charts.png",
+      "rarity": "rare",
+      "color": "U",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "consult-the-star-charts",
+      "name": "Consult The Star Charts"
+    },
+    {
+      "filename": "rare_u_sorcery_poseidons-intervention.png",
+      "path": "assets/cards/rare/rare_u_sorcery_poseidons-intervention.png",
+      "rarity": "rare",
+      "color": "U",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "poseidons-intervention",
+      "name": "Poseidons Intervention"
+    },
+    {
+      "filename": "rare_u_enchantment_kanon-awakens-poseidon.png",
+      "path": "assets/cards/rare/rare_u_enchantment_kanon-awakens-poseidon.png",
+      "rarity": "rare",
+      "color": "U",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "kanon-awakens-poseidon",
+      "name": "Kanon Awakens Poseidon"
+    },
+    {
+      "filename": "rare_u_enchantment_training-grounds.png",
+      "path": "assets/cards/rare/rare_u_enchantment_training-grounds.png",
+      "rarity": "rare",
+      "color": "U",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "training-grounds",
+      "name": "Training Grounds"
+    },
+    {
+      "filename": "rare_ub_creature_orphee-storied-lyra.png",
+      "path": "assets/cards/rare/rare_ub_creature_orphee-storied-lyra.png",
+      "rarity": "rare",
+      "color": "UB",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "orphee-storied-lyra",
+      "name": "Orphee Storied Lyra"
+    },
+    {
+      "filename": "rare_ub_creature_suikyo-melancholic-crateris.png",
+      "path": "assets/cards/rare/rare_ub_creature_suikyo-melancholic-crateris.png",
+      "rarity": "rare",
+      "color": "UB",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "suikyo-melancholic-crateris",
+      "name": "Suikyo Melancholic Crateris"
+    },
+    {
+      "filename": "rare_gu_creature_odysseus-distorter-of-artemis.png",
+      "path": "assets/cards/rare/rare_gu_creature_odysseus-distorter-of-artemis.png",
+      "rarity": "rare",
+      "color": "UG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "odysseus-distorter-of-artemis",
+      "name": "Odysseus Distorter Of Artemis"
+    },
+    {
+      "filename": "rare_ur_creature_milo-proud-scorpio.png",
+      "path": "assets/cards/rare/rare_ur_creature_milo-proud-scorpio.png",
+      "rarity": "rare",
+      "color": "UR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "milo-proud-scorpio",
+      "name": "Milo Proud Scorpio"
+    },
+    {
+      "filename": "rare_gur_creature_siegfried-immortal-dubhe.png",
+      "path": "assets/cards/rare/rare_gur_creature_siegfried-immortal-dubhe.png",
+      "rarity": "rare",
+      "color": "URG",
+      "colorCount": 3,
+      "type": "creature",
+      "slug": "siegfried-immortal-dubhe",
+      "name": "Siegfried Immortal Dubhe"
+    },
+    {
+      "filename": "rare_gur_sorcery_hildas-intervention.png",
+      "path": "assets/cards/rare/rare_gur_sorcery_hildas-intervention.png",
+      "rarity": "rare",
+      "color": "URG",
+      "colorCount": 3,
+      "type": "sorcery",
+      "slug": "hildas-intervention",
+      "name": "Hildas Intervention"
+    },
+    {
+      "filename": "rare_w_creature_aiolos-guiding-sagittarius.png",
+      "path": "assets/cards/rare/rare_w_creature_aiolos-guiding-sagittarius.png",
+      "rarity": "rare",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "aiolos-guiding-sagittarius",
+      "name": "Aiolos Guiding Sagittarius"
+    },
+    {
+      "filename": "rare_w_creature_shaka-godly-virgo.png",
+      "path": "assets/cards/rare/rare_w_creature_shaka-godly-virgo.png",
+      "rarity": "rare",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "shaka-godly-virgo",
+      "name": "Shaka Godly Virgo"
+    },
+    {
+      "filename": "rare_w_creature_shion-original-pope.png",
+      "path": "assets/cards/rare/rare_w_creature_shion-original-pope.png",
+      "rarity": "rare",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "shion-original-pope",
+      "name": "Shion Original Pope"
+    },
+    {
+      "filename": "rare_w_instant_deicide.png",
+      "path": "assets/cards/rare/rare_w_instant_deicide.png",
+      "rarity": "rare",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "deicide",
+      "name": "Deicide"
+    },
+    {
+      "filename": "rare_w_sorcery_athenas-intervention.png",
+      "path": "assets/cards/rare/rare_w_sorcery_athenas-intervention.png",
+      "rarity": "rare",
+      "color": "W",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "athenas-intervention",
+      "name": "Athenas Intervention"
+    },
+    {
+      "filename": "rare_w_sorcery_the-seventh-sense.png",
+      "path": "assets/cards/rare/rare_w_sorcery_the-seventh-sense.png",
+      "rarity": "rare",
+      "color": "W",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "the-seventh-sense",
+      "name": "The Seventh Sense"
+    },
+    {
+      "filename": "rare_w_enchantment_dawn-of-hope.png",
+      "path": "assets/cards/rare/rare_w_enchantment_dawn-of-hope.png",
+      "rarity": "rare",
+      "color": "W",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "dawn-of-hope",
+      "name": "Dawn Of Hope"
+    },
+    {
+      "filename": "rare_w_enchantment_kamui-awakening.png",
+      "path": "assets/cards/rare/rare_w_enchantment_kamui-awakening.png",
+      "rarity": "rare",
+      "color": "W",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "kamui-awakening",
+      "name": "Kamui Awakening"
+    },
+    {
+      "filename": "rare_wb_creature_saga-tormented-gemini.png",
+      "path": "assets/cards/rare/rare_wb_creature_saga-tormented-gemini.png",
+      "rarity": "rare",
+      "color": "WB",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "saga-tormented-gemini",
+      "name": "Saga Tormented Gemini"
+    },
+    {
+      "filename": "rare_gw_creature_dohko-rejuvenated-libra.png",
+      "path": "assets/cards/rare/rare_gw_creature_dohko-rejuvenated-libra.png",
+      "rarity": "rare",
+      "color": "WG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "dohko-rejuvenated-libra",
+      "name": "Dohko Rejuvenated Libra"
+    },
+    {
+      "filename": "rare_gw_creature_toma-heavenly-icarus.png",
+      "path": "assets/cards/rare/rare_gw_creature_toma-heavenly-icarus.png",
+      "rarity": "rare",
+      "color": "WG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "toma-heavenly-icarus",
+      "name": "Toma Heavenly Icarus"
+    },
+    {
+      "filename": "rare_rw_creature_shura-bladed-capricorn.png",
+      "path": "assets/cards/rare/rare_rw_creature_shura-bladed-capricorn.png",
+      "rarity": "rare",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "shura-bladed-capricorn",
+      "name": "Shura Bladed Capricorn"
+    },
+    {
+      "filename": "rare_wu_creature_kanon-redeemed-gemini.png",
+      "path": "assets/cards/rare/rare_wu_creature_kanon-redeemed-gemini.png",
+      "rarity": "rare",
+      "color": "WU",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "kanon-redeemed-gemini",
+      "name": "Kanon Redeemed Gemini"
+    },
+    {
+      "filename": "rare_wu_creature_mu-aries-blacksmith.png",
+      "path": "assets/cards/rare/rare_wu_creature_mu-aries-blacksmith.png",
+      "rarity": "rare",
+      "color": "WU",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "mu-aries-blacksmith",
+      "name": "Mu Aries Blacksmith"
+    },
+    {
+      "filename": "rare_urw_instant_athenas-exclamation.png",
+      "path": "assets/cards/rare/rare_urw_instant_athenas-exclamation.png",
+      "rarity": "rare",
+      "color": "WUR",
+      "colorCount": 3,
+      "type": "instant",
+      "slug": "athenas-exclamation",
+      "name": "Athenas Exclamation"
+    },
+    {
+      "filename": "mythic_b_creature_hades-emperor-of-the-underworld.png",
+      "path": "assets/cards/mythic/mythic_b_creature_hades-emperor-of-the-underworld.png",
+      "rarity": "mythic",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "hades-emperor-of-the-underworld",
+      "name": "Hades Emperor Of The Underworld"
+    },
+    {
+      "filename": "mythic_b_creature_hypnos-god-of-sleep.png",
+      "path": "assets/cards/mythic/mythic_b_creature_hypnos-god-of-sleep.png",
+      "rarity": "mythic",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "hypnos-god-of-sleep",
+      "name": "Hypnos God Of Sleep"
+    },
+    {
+      "filename": "mythic_b_creature_thanatos-god-of-death.png",
+      "path": "assets/cards/mythic/mythic_b_creature_thanatos-god-of-death.png",
+      "rarity": "mythic",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "thanatos-god-of-death",
+      "name": "Thanatos God Of Death"
+    },
+    {
+      "filename": "mythic_br_creature_ikki-phoenix-saint.png",
+      "path": "assets/cards/mythic/mythic_br_creature_ikki-phoenix-saint.png",
+      "rarity": "mythic",
+      "color": "BR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "ikki-phoenix-saint",
+      "name": "Ikki Phoenix Saint"
+    },
+    {
+      "filename": "mythic_brg_enchantment_hellish-rebirth.png",
+      "path": "assets/cards/mythic/mythic_brg_enchantment_hellish-rebirth.png",
+      "rarity": "mythic",
+      "color": "BRG",
+      "colorCount": 3,
+      "type": "enchantment",
+      "slug": "hellish-rebirth",
+      "name": "Hellish Rebirth"
+    },
+    {
+      "filename": "mythic_g_creature_artemis-god-of-the-moon.png",
+      "path": "assets/cards/mythic/mythic_g_creature_artemis-god-of-the-moon.png",
+      "rarity": "mythic",
+      "color": "G",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "artemis-god-of-the-moon",
+      "name": "Artemis God Of The Moon"
+    },
+    {
+      "filename": "mythic_r_creature_apollo-god-of-the-sun.png",
+      "path": "assets/cards/mythic/mythic_r_creature_apollo-god-of-the-sun.png",
+      "rarity": "mythic",
+      "color": "R",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "apollo-god-of-the-sun",
+      "name": "Apollo God Of The Sun"
+    },
+    {
+      "filename": "mythic_u_creature_poseidon-god-of-the-ocean.png",
+      "path": "assets/cards/mythic/mythic_u_creature_poseidon-god-of-the-ocean.png",
+      "rarity": "mythic",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "poseidon-god-of-the-ocean",
+      "name": "Poseidon God Of The Ocean"
+    },
+    {
+      "filename": "mythic_gur_creature_hilda-controlled-polaris.png",
+      "path": "assets/cards/mythic/mythic_gur_creature_hilda-controlled-polaris.png",
+      "rarity": "mythic",
+      "color": "URG",
+      "colorCount": 3,
+      "type": "creature",
+      "slug": "hilda-controlled-polaris",
+      "name": "Hilda Controlled Polaris"
+    },
+    {
+      "filename": "mythic_w_creature_saori-athena-incarnate.png",
+      "path": "assets/cards/mythic/mythic_w_creature_saori-athena-incarnate.png",
+      "rarity": "mythic",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "saori-athena-incarnate",
+      "name": "Saori Athena Incarnate"
+    },
+    {
+      "filename": "mythic_w_creature_shun-andromeda-saint.png",
+      "path": "assets/cards/mythic/mythic_w_creature_shun-andromeda-saint.png",
+      "rarity": "mythic",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "shun-andromeda-saint",
+      "name": "Shun Andromeda Saint"
+    },
+    {
+      "filename": "mythic_w_enchantment_gold-saints-ultimate-light.png",
+      "path": "assets/cards/mythic/mythic_w_enchantment_gold-saints-ultimate-light.png",
+      "rarity": "mythic",
+      "color": "W",
+      "colorCount": 1,
+      "type": "enchantment",
+      "slug": "gold-saints-ultimate-light",
+      "name": "Gold Saints Ultimate Light"
+    },
+    {
+      "filename": "mythic_gw_creature_shiryu-dragon-saint.png",
+      "path": "assets/cards/mythic/mythic_gw_creature_shiryu-dragon-saint.png",
+      "rarity": "mythic",
+      "color": "WG",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "shiryu-dragon-saint",
+      "name": "Shiryu Dragon Saint"
+    },
+    {
+      "filename": "mythic_rw_creature_seiya-pegasus-saint.png",
+      "path": "assets/cards/mythic/mythic_rw_creature_seiya-pegasus-saint.png",
+      "rarity": "mythic",
+      "color": "WR",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "seiya-pegasus-saint",
+      "name": "Seiya Pegasus Saint"
+    },
+    {
+      "filename": "mythic_wu_creature_hyoga-cygnus-saint.png",
+      "path": "assets/cards/mythic/mythic_wu_creature_hyoga-cygnus-saint.png",
+      "rarity": "mythic",
+      "color": "WU",
+      "colorCount": 2,
+      "type": "creature",
+      "slug": "hyoga-cygnus-saint",
+      "name": "Hyoga Cygnus Saint"
+    },
+    {
+      "filename": "mythic_wubrg_enchantment_the-past-holy-war.png",
+      "path": "assets/cards/mythic/mythic_wubrg_enchantment_the-past-holy-war.png",
+      "rarity": "mythic",
+      "color": "WUBRG",
+      "colorCount": 5,
+      "type": "enchantment",
+      "slug": "the-past-holy-war",
+      "name": "The Past Holy War"
+    },
+    {
+      "filename": "ink_b_sorcery_dull-the-senses-promo.png",
+      "path": "assets/cards/ink/ink_b_sorcery_dull-the-senses-promo.png",
+      "rarity": "ink",
+      "color": "B",
+      "colorCount": 1,
+      "type": "sorcery",
+      "slug": "dull-the-senses-promo",
+      "name": "Dull The Senses Promo"
+    },
+    {
+      "filename": "ink_w_instant_deicide-promo.png",
+      "path": "assets/cards/ink/ink_w_instant_deicide-promo.png",
+      "rarity": "ink",
+      "color": "W",
+      "colorCount": 1,
+      "type": "instant",
+      "slug": "deicide-promo",
+      "name": "Deicide Promo"
+    }
+  ],
+  "skipped": [],
+  "total": 274,
+  "generatedAt": "2026-06-24T09:06:30.623488"
+}

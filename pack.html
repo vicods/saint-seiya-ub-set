@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abrir Pack — Cosmo Archive</title>
+<style>
+
+:root {
+  --void:        #0a0a0d;
+  --panel:       #16161f;
+  --line:        #26262f;
+  --ink:         #e8e6e0;
+  --ink-dim:     #8d8a9c;
+  --ink-faint:   #5a5868;
+
+  --c-common:    #9a98a8;
+  --c-uncommon:  #c4c8d4;
+  --c-rare:      #d4af6a;
+  --c-mythic:    #d4564a;
+
+  --glow-common:    rgba(154,152,168,0.18);
+  --glow-uncommon:  rgba(196,200,212,0.25);
+  --glow-rare:      rgba(212,175,106,0.35);
+  --glow-mythic:    rgba(212,86,74,0.45);
+
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-body:     "Inter", -apple-system, "Segoe UI", sans-serif;
+  --font-mono:     "JetBrains Mono", "SF Mono", Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--void);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+.starfield {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1px 1px at 12% 18%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 32% 64%, rgba(255,255,255,0.35), transparent),
+    radial-gradient(1.5px 1.5px at 52% 22%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 71% 78%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 85% 35%, rgba(255,255,255,0.45), transparent),
+    radial-gradient(1.5px 1.5px at 22% 88%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 91% 12%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 6% 50%, rgba(255,255,255,0.25), transparent);
+  opacity: 0.6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(10,10,13,0.92);
+  backdrop-filter: blur(10px);
+  padding: 20px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+
+.title-block .eyebrow {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 4px;
+}
+
+.title-block h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(22px, 3vw, 30px);
+  margin: 0;
+  color: var(--ink);
+}
+
+.title-block h1 em {
+  font-style: italic;
+  color: var(--c-rare);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-dim);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  border-color: var(--ink-dim);
+  color: var(--ink);
+}
+
+.btn.primary {
+  border: 1px solid var(--c-rare);
+  background: linear-gradient(135deg, rgba(212,175,106,0.15), rgba(212,86,74,0.1));
+  color: var(--c-rare);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn.primary:hover {
+  background: linear-gradient(135deg, rgba(212,175,106,0.28), rgba(212,86,74,0.2));
+  box-shadow: 0 0 16px rgba(212,175,106,0.25);
+}
+
+.btn.primary:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  padding: 40px 48px 80px;
+}
+
+.warnings {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--c-mythic);
+  text-align: center;
+  margin-bottom: 20px;
+  min-height: 1em;
+}
+
+.pack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pack-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 5 / 7;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  opacity: 0;
+  transform: translateY(16px) scale(0.96);
+  animation: revealCard 0.5s cubic-bezier(.2,.8,.2,1) forwards;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pack-card:hover {
+  transform: translateY(-4px) scale(1);
+}
+
+.pack-card[data-rarity="common"]   { box-shadow: 0 0 0 0 var(--glow-common); }
+.pack-card[data-rarity="uncommon"] { box-shadow: 0 0 0 0 var(--glow-uncommon); }
+.pack-card[data-rarity="rare"]     { box-shadow: 0 8px 28px var(--glow-rare); }
+.pack-card[data-rarity="mythic"]   { box-shadow: 0 10px 36px var(--glow-mythic); }
+
+.pack-card[data-rarity="common"]:hover   { box-shadow: 0 8px 22px var(--glow-common); }
+.pack-card[data-rarity="uncommon"]:hover { box-shadow: 0 8px 26px var(--glow-uncommon); }
+.pack-card[data-rarity="rare"]:hover     { box-shadow: 0 10px 34px var(--glow-rare); }
+.pack-card[data-rarity="mythic"]:hover   { box-shadow: 0 12px 42px var(--glow-mythic); }
+
+.pack-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.pack-card .mark {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  z-index: 2;
+}
+.pack-card .mark[data-r="common"]   { background: var(--c-common); }
+.pack-card .mark[data-r="uncommon"] { background: var(--c-uncommon); box-shadow: 0 0 6px var(--c-uncommon); }
+.pack-card .mark[data-r="rare"]     { background: var(--c-rare); box-shadow: 0 0 8px var(--c-rare); }
+.pack-card .mark[data-r="mythic"]   { background: var(--c-mythic); box-shadow: 0 0 10px var(--c-mythic); }
+
+@keyframes revealCard {
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(5,5,7,0.92);
+  backdrop-filter: blur(6px);
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+  max-height: 88vh;
+  max-width: min(520px, 90vw);
+  border-radius: 12px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+}
+.lightbox-close {
+  position: absolute;
+  top: 28px;
+  right: 38px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-dim);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.lightbox-close:hover { color: var(--ink); border-color: var(--ink-dim); }
+
+@media (max-width: 700px) {
+  header, main { padding-left: 20px; padding-right: 20px; }
+  header { flex-wrap: wrap; gap: 12px; }
+}
+
+</style>
+</head>
+<body>
+
+<div class="starfield"></div>
+
+<header>
+  <div class="title-block">
+    <p class="eyebrow">Cosmo Archive · Limited</p>
+    <h1>Abrir <em>Pack</em></h1>
+  </div>
+  <div class="header-actions">
+    <button class="btn primary" id="simulateBtn">Abrir outro pack</button>
+    <a href="archive.html" class="btn">close</a>
+  </div>
+</header>
+
+<main>
+  <div class="warnings" id="warnings"></div>
+  <div class="pack-grid" id="packGrid"></div>
+</main>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">close ✕</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+const simulateBtn = document.getElementById("simulateBtn");
+const packGrid = document.getElementById("packGrid");
+const warningsEl = document.getElementById("warnings");
+
+const RARITY_ORDER = { mythic: 0, rare: 1, uncommon: 2, common: 3 };
+
+// === Constantes da proporção de booster, espelhando o antigo build_pack() do server.py ===
+const MYTHIC_CHANCE = 1 / 8;
+const PACK_COMMONS = 10;
+const PACK_UNCOMMONS = 3;
+
+let allCardsCache = null;
+
+async function loadAllCards() {
+  if (allCardsCache) return allCardsCache;
+  const res = await fetch("assets/cards.json");
+  const data = await res.json();
+  allCardsCache = data.cards;
+  return allCardsCache;
+}
+
+function pickRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function shuffle(arr) {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+/**
+ * Gera um booster de 15 cartas seguindo a mesma proporção do antigo
+ * build_pack() em Python: 1 terreno, 10 comuns (não-terreno), 3 incomuns,
+ * 1 raro com 1/8 de chance de ser promovido a mítico.
+ */
+function buildPack(allCards) {
+  const warnings = [];
+  const byRarity = (r) => allCards.filter(c => c.rarity === r);
+
+  const commons = byRarity("common");
+  const lands = commons.filter(c => c.type === "land");
+  const nonlandCommons = commons.filter(c => c.type !== "land");
+  const uncommons = byRarity("uncommon");
+  const rares = byRarity("rare");
+  const mythics = byRarity("mythic");
+
+  const pack = [];
+
+  if (lands.length) {
+    pack.push(pickRandom(lands));
+  } else if (nonlandCommons.length) {
+    warnings.push("No land found in common cards; using a common in the land slot instead.");
+    pack.push(pickRandom(nonlandCommons));
+  } else {
+    warnings.push("No card available for the land slot.");
+  }
+
+  let pool = shuffle(nonlandCommons);
+  if (pool.length < PACK_COMMONS) {
+    warnings.push(`Only ${pool.length} commons available (expected ${PACK_COMMONS}); pack will repeat or be short.`);
+    for (let i = 0; i < PACK_COMMONS; i++) {
+      if (nonlandCommons.length) pack.push(pickRandom(nonlandCommons));
+    }
+  } else {
+    pack.push(...pool.slice(0, PACK_COMMONS));
+  }
+
+  pool = shuffle(uncommons);
+  if (pool.length < PACK_UNCOMMONS) {
+    warnings.push(`Only ${pool.length} uncommons available (expected ${PACK_UNCOMMONS}); pack will repeat or be short.`);
+    for (let i = 0; i < PACK_UNCOMMONS; i++) {
+      if (uncommons.length) pack.push(pickRandom(uncommons));
+    }
+  } else {
+    pack.push(...pool.slice(0, PACK_UNCOMMONS));
+  }
+
+  const useMythic = mythics.length && Math.random() < MYTHIC_CHANCE;
+  if (useMythic) {
+    pack.push(pickRandom(mythics));
+  } else if (rares.length) {
+    pack.push(pickRandom(rares));
+  } else if (mythics.length) {
+    warnings.push("No rare available; using a mythic in the rare slot.");
+    pack.push(pickRandom(mythics));
+  } else {
+    warnings.push("No rare or mythic card available for the rare slot.");
+  }
+
+  return { pack, warnings };
+}
+
+async function simulatePack() {
+  simulateBtn.disabled = true;
+  warningsEl.textContent = "";
+
+  try {
+    const allCards = await loadAllCards();
+    const { pack, warnings } = buildPack(allCards);
+
+    if (warnings.length) {
+      warningsEl.textContent = warnings.join(" · ");
+    }
+
+    renderPack(pack);
+  } catch (e) {
+    warningsEl.textContent = "Could not load assets/cards.json. Make sure it exists and was generated.";
+    console.error(e);
+  } finally {
+    simulateBtn.disabled = false;
+  }
+}
+
+function renderPack(pack) {
+  const sorted = [...pack].sort((a, b) => RARITY_ORDER[a.rarity] - RARITY_ORDER[b.rarity]);
+
+  packGrid.innerHTML = sorted.map((c, i) => `
+    <div class="pack-card" data-rarity="${c.rarity}" data-index="${i}" style="animation-delay: ${i * 0.06}s">
+      <div class="mark" data-r="${c.rarity}"></div>
+      <img src="${c.path}" alt="${c.name}" loading="lazy">
+    </div>
+  `).join("");
+
+  packGrid.querySelectorAll(".pack-card").forEach(tile => {
+    tile.addEventListener("click", () => {
+      const idx = parseInt(tile.dataset.index);
+      openLightbox(sorted[idx]);
+    });
+  });
+}
+
+function openLightbox(card) {
+  document.getElementById("lightboxImg").src = card.path;
+  document.getElementById("lightboxImg").alt = card.name;
+  document.getElementById("lightbox").classList.add("open");
+}
+function closeLightbox() {
+  document.getElementById("lightbox").classList.remove("open");
+}
+document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
+document.getElementById("lightbox").addEventListener("click", (e) => {
+  if (e.target.id === "lightbox") closeLightbox();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeLightbox();
+});
+
+simulateBtn.addEventListener("click", simulatePack);
+
+// Abre um pack automaticamente ao carregar a página
+simulatePack();
+</script>
+
+</body>
+</html>
