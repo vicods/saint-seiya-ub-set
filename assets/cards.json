@@ -2739,9 +2739,79 @@
       "type": "instant",
       "slug": "deicide-promo",
       "name": "Deicide Promo"
+    },
+    {
+      "filename": "token_b_creature_black-saint.png",
+      "path": "assets/cards/tokens/token_b_creature_black-saint.png",
+      "rarity": "token",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "black-saint",
+      "name": "Black Saint"
+    },
+    {
+      "filename": "token_b_creature_snake.png",
+      "path": "assets/cards/tokens/token_b_creature_snake.png",
+      "rarity": "token",
+      "color": "B",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "snake",
+      "name": "Snake"
+    },
+    {
+      "filename": "token_c_artifact_pendant.png",
+      "path": "assets/cards/tokens/token_c_artifact_pendant.png",
+      "rarity": "token",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "pendant",
+      "name": "Pendant"
+    },
+    {
+      "filename": "token_c_artifact_treasure.png",
+      "path": "assets/cards/tokens/token_c_artifact_treasure.png",
+      "rarity": "token",
+      "color": "C",
+      "colorCount": 0,
+      "type": "artifact",
+      "slug": "treasure",
+      "name": "Treasure"
+    },
+    {
+      "filename": "token_g_artifact_rose.png",
+      "path": "assets/cards/tokens/token_g_artifact_rose.png",
+      "rarity": "token",
+      "color": "G",
+      "colorCount": 1,
+      "type": "artifact",
+      "slug": "rose",
+      "name": "Rose"
+    },
+    {
+      "filename": "token_u_creature_crow.png",
+      "path": "assets/cards/tokens/token_u_creature_crow.png",
+      "rarity": "token",
+      "color": "U",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "crow",
+      "name": "Crow"
+    },
+    {
+      "filename": "token_w_creature_soldier.png",
+      "path": "assets/cards/tokens/token_w_creature_soldier.png",
+      "rarity": "token",
+      "color": "W",
+      "colorCount": 1,
+      "type": "creature",
+      "slug": "soldier",
+      "name": "Soldier"
     }
   ],
   "skipped": [],
-  "total": 274,
-  "generatedAt": "2026-06-24T09:06:30.623488"
+  "total": 281,
+  "generatedAt": "2026-06-29T16:35:18.790631"
 }
