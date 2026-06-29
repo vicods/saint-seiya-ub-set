@@ -34,11 +34,11 @@ CARDS_DIR = ROOT / "assets" / "cards"
 OUTPUT_FILE = ROOT / "assets" / "cards.json"
 
 RARITIES = ["common", "uncommon", "rare", "mythic"]
-SPECIAL_RARITIES = ["ink"]
+SPECIAL_RARITIES = ["ink", "token"]
 ALL_RARITIES = RARITIES + SPECIAL_RARITIES
 
 NAME_PATTERN = re.compile(
-    r"^(?P<rarity>common|uncommon|rare|mythic|ink)_"
+    r"^(?P<rarity>common|uncommon|rare|mythic|ink|token)_"
     r"(?P<color>[wubrgc]+|colorless)_"
     r"(?P<type>[a-z]+)_"
     r"(?P<slug>.+)\.(png|jpg|jpeg|webp)$",

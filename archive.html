@@ -710,7 +710,10 @@ document.getElementById("clearFilters").addEventListener("click", () => {
 function applyFilters() {
   filteredCards = allCards.filter(c => {
     if (activeRarities.size && !activeRarities.has(c.rarity)) return false;
-    if (activeColors.size) {
+    // Cartas de raridades especiais (ink, token) não participam do filtro
+    // de cor -- elas só aparecem/desaparecem via filtro de raridade.
+    const isSpecialRarity = c.rarity === "ink" || c.rarity === "token";
+    if (activeColors.size && !isSpecialRarity) {
       const hasAny = [...activeColors].some(col => c.color.includes(col) || (col === "C" && c.color === "C"));
       if (!hasAny) return false;
     }
